@@ -1,0 +1,17 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Editor.chm
+Contents file=Dungeon Keeper Editor.hhc
+Default topic=Aide\Index.htm
+Display compile progress=Yes
+Full-text search=Yes
+Index file=Dungeon Keeper Editor.hhk
+Language=0x40c Français (standard)
+Title=Créateur de carte pour Dungeon Keeper II®
+
+
+[FILES]
+Aide\Index.htm
+
+[INFOTYPES]
+

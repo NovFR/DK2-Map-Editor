@@ -1,0 +1,138 @@
+
+#include "..\..\Includes\Version.h"
+#include "..\..\Includes\Strings.h"
+
+// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// ¤¤¤									  ¤¤¤ //
+// ¤¤¤ Icônes et images							  ¤¤¤ //
+// ¤¤¤									  ¤¤¤ //
+// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+
+/*** Icons ***********************************************************************/
+
+1  ICON "..\..\Icons\Camera.ico"
+
+/*** Images **********************************************************************/
+
+1000 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°000.bmp"
+1001 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°001.bmp"
+1002 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°002.bmp"
+1003 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°003.bmp"
+1050 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°050.bmp"
+1051 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°051.bmp"
+1052 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°052.bmp"
+1053 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°053.bmp"
+1054 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°054.bmp"
+1055 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°055.bmp"
+1056 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°056.bmp"
+1057 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°057.bmp"
+1058 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°058.bmp"
+1059 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°059.bmp"
+1060 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°060.bmp"
+1061 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°061.bmp"
+1062 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°062.bmp"
+1063 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°063.bmp"
+1064 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°064.bmp"
+1065 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°065.bmp"
+1066 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°066.bmp"
+1067 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°067.bmp"
+1100 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°100.bmp"
+1101 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°101.bmp"
+1150 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°150.bmp"
+1201 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°201.bmp"
+1203 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°203.bmp"
+1204 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°204.bmp"
+1205 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°205.bmp"
+1206 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°206.bmp"
+1207 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°207.bmp"
+1208 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°208.bmp"
+1209 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°209.bmp"
+1210 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°210.bmp"
+1211 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°211.bmp"
+1212 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°212.bmp"
+1213 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°213.bmp"
+1214 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°214.bmp"
+1215 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°215.bmp"
+1216 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°216.bmp"
+1217 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°217.bmp"
+1218 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°218.bmp"
+1219 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°219.bmp"
+1221 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°221.bmp"
+1222 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°222.bmp"
+1230 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°230.bmp"
+1231 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°231.bmp"
+1232 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°232.bmp"
+1233 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°233.bmp"
+1234 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°234.bmp"
+1235 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°235.bmp"
+1236 BITMAP "..\..\Bitmaps\Chemins de caméra\Chemin n°236.bmp"
+
+// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// ¤¤¤									  ¤¤¤ //
+// ¤¤¤ Boîtes de dialogue						  ¤¤¤ //
+// ¤¤¤									  ¤¤¤ //
+// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+
+/*** Réductions *********************************************************/
+
+9000 DIALOG 0, 0, 350, 234
+STYLE DS_MODALFRAME|WS_BORDER|WS_VISIBLE|WS_CAPTION|WS_SYSMENU
+CLASS DIALOG_PATHSCLASS
+CAPTION DIALOG_PATHSTITLE
+FONT 8, "MS Sans Serif"
+{
+	GROUPBOX	DIALOG_PATHSIDENTIFIERS,	100,   8,   6,  80, 200
+	LISTBOX						101,  12,  16,  72, 186, WS_VSCROLL|LBS_NOINTEGRALHEIGHT
+
+	GROUPBOX	DIALOG_PATHSINFO,		200,  92,   6, 250, 200
+	CONTROL		DIALOG_NULL,			201, "STATIC", WS_CHILD|SS_OWNERDRAW, 116, 20, 202, 130
+	EDITTEXT					202, 100, 158, 234,  38, WS_VSCROLL|ES_READONLY|ES_MULTILINE
+
+	PUSHBUTTON	DIALOG_OK,		       IDOK, 232, 212,  50,  14
+	PUSHBUTTON	DIALOG_ABORT,		   IDCANCEL, 286, 212,  50,  14
+}
+
+// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// ¤¤¤									  ¤¤¤ //
+// ¤¤¤ Informations							  ¤¤¤ //
+// ¤¤¤									  ¤¤¤ //
+// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+
+VS_VERSION_INFO VERSIONINFO
+
+	FILEVERSION	RELEASEVERSION,RELEASEREVISION,VERSION,REVISION
+	PRODUCTVERSION	RELEASEVERSION,RELEASEREVISION,0,0
+	FILEFLAGSMASK	VS_FF_DEBUG|VS_FF_PRERELEASE|VS_FF_PRIVATEBUILD
+	#if (!PRIVATE)
+	FILEFLAGS	0
+	#else
+	FILEFLAGS	VS_FF_DEBUG|VS_FF_PRERELEASE|VS_FF_PRIVATEBUILD
+	#endif
+	FILEOS		VOS__WINDOWS32
+	FILETYPE	VFT_APP
+{
+	BLOCK "StringFileInfo"
+		{
+		#if (!FRENCH)
+		BLOCK "04090000"
+		#else
+		BLOCK "040C0000"
+		#endif
+			{
+			VALUE "OriginalFilename", "CameraPaths.dll\0"
+			VALUE "FileVersion", FULLVERSIONSTRING
+			VALUE "ProductName", "Dungeon Keeper II® Map Editor\0"
+			VALUE "ProductVersion", RELEASESTRING
+			VALUE "FileDescription", DIALOG_PATHSDESCRIPTION
+			VALUE "LegalCopyright", "NOVICE\0"
+			}
+		}
+	BLOCK "VarFileInfo"
+		{
+		#if (!FRENCH)
+		VALUE "Translation", 0x0409, 0
+		#else
+		VALUE "Translation", 0x040C, 0
+		#endif
+		}
+}

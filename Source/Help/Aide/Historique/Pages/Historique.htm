@@ -1,0 +1,275 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="fr">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Créateur de carte pour Dungeon Keeper II®</title>
+</head>
+
+<body TOPMARGIN="0" LEFTMARGIN="0" RIGHTMARGIN="0" BOTTOMMARGIN="0">
+
+<p style="margin:2 14; line-height: 100%; word-spacing: 0; padding: 0" align="left">
+ &nbsp;</p>
+
+<p style="margin:2 14; line-height: 100%; word-spacing: 0; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">L'historique retrace l'évolution du 
+ programme au fil du temps (les nouveautés, les bugs supprimés, les 
+ modifications, etc.).</font></p>
+
+<p style="margin:2 14; line-height: 100%; word-spacing: 0; padding: 0" align="left">
+ &nbsp;</p>
+
+<p style="margin:2 14; line-height: 100%; word-spacing: 0; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Légende</font></p>
+
+<p style="margin:2 14; line-height: 100%; word-spacing: 0; padding: 0" align="left">
+ <img border="0" src="../Images/Nouveauté.bmp" width="32" height="18"> Nouveauté</p>
+
+<p style="margin:2 14; line-height: 100%; word-spacing: 0; padding: 0" align="left">
+ <img border="0" src="../Images/Modification+.bmp" width="32" height="18">Modification 
+ importante</p>
+
+<p style="margin:2 14; line-height: 100%; word-spacing: 0; padding: 0" align="left">
+ <img border="0" src="../Images/Modification.bmp" width="32" height="18">Modification 
+ mineure</p>
+
+<p style="margin:2 14; line-height: 100%; word-spacing: 0; padding: 0" align="left">
+ <img border="0" src="../Images/Bugs2.bmp" width="32" height="18">Bug corrigé</p>
+
+<p style="margin:2 14; line-height: 100%; word-spacing: 0; padding: 0" align="left">
+ &nbsp;</p>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="90%" height="1" id="AutoNumber1">
+    <tr>
+      <td width="815" height="1" colspan="2" valign="middle"><b>
+      <font face="MS Sans Serif" size="2">V38.01b2</font></b></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Bugs2.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">Correction d'un bug stupide concernant 
+      l'affichage de la date (statistiques et compilation). Le calcul du mois 
+      commençait en Février au lieu de commencer en Janvier.</font></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Bugs2.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">Le texte des zones était noir au lieu 
+      d'être bleu lors du chargement d'un fichier au format texte. Ce petit 
+      problème a été corrigé.</font></td>
+    </tr>
+    <tr>
+      <td width="815" height="1" colspan="2" valign="middle"><font size="2">&nbsp;</font></td>
+    </tr>
+    <tr>
+      <td width="815" height="1" colspan="2" valign="middle"><b>
+      <font face="MS Sans Serif" size="2">V38.00b2</font></b></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Nouveauté.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">Ajout des propriétés des créatures. 
+      Deux nouveaux fichiers sont ainsi susceptibles de faire leur apparition 
+      lors de la compilation : {Nom de la carte}Creatures.kld et {Nom de la 
+      carte}CreatureSpells.kld.</font></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Modification+.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">Les valeurs par défaut pour les 
+      propriétés des éléments se trouvent désormais dans le répertoire Globals\, 
+      elles ne sont plus internes au programme. Cette modification du programme 
+      est importante dans la mesure où l'éditeur ne pourra pas fonctionner sans 
+      les fichiers qui se trouvent dans ce répertoire.</font></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Modification+.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">Le gestionnaire d'éléments a été 
+      complètement réécrit. Dorénavant le gestionnaire garde en mémoire les 
+      paramètres de tous les éléments (créature, porte, piège, objet et objet 
+      magique), les positions de l'élément ainsi que toutes les nouvelles 
+      options. Son fonctionnement a été entièrement repensé pour le rendre plus 
+      utile et plus complet.</font></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Modification.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">La modification des propriétés des 
+      éléments est désormais regroupée dans la modification des variables 
+      globales dans l'historique de l'annulation. La modification des variables 
+      globales regroupe les propriétés des éléments (terrains, salles, portes, 
+      pièges, sorts du gardien) ainsi que les propriétés des créatures 
+      (attributs, etc.)</font></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Modification.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">Le nom de la carte sauvegardée est 
+      dorénavant ajouté dans la liste des fichiers récents.</font></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Modification.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">Modification des routines de tests 
+      pour qu'elles prennent en compte les nouveaux paramètres.</font></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Modification.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">A partir de maintenant lorsque la 
+      résolution de l'écran change, l'éditeur réinitialise ses données 
+      d'affichage. Si jamais la fenêtre de l'éditeur est maximisée au moment du 
+      changement de résolution, les nouvelles dimensions de l'écran sont 
+      utilisées pour redimensionner la fenêtre.</font></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Modification.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">Il est désormais possible de ne pas 
+      afficher le terrain (menu afficher). Il n'est pas certain que cette option 
+      serve à quelque chose, mais bon, c'était plutôt facile à programmer :)</font></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Modification.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">L'éditeur est désormais capable de 
+      jouer des sons en fonction de vos actions. Vous devez impérativement 
+      posséder une carte sonore compatible avec DirectX 7.0. Bien entendu, 
+      DirectX doit être installé.</font><p style="margin-top: 0; margin-bottom: 0">
+      <font face="MS Sans Serif" size="2">Les sons doivent être présents dans le 
+      répertoire Sounds\ de l'éditeur. En cas de problème (DirectX non installé, 
+      mémoire insuffisante, format du fichier incorrect,, fichier absent, etc.) 
+      aucune requête ne viendra vous le signaler mais aucun son ne sera joué.</font></p>
+      <p style="margin-top: 0; margin-bottom: 0">
+      <font face="MS Sans Serif" size="2">En attendant que la configuration soit 
+      écrite, si les sons vous crispent, vous pouvez effacer ce répertoire. 
+      L'éditeur n'a pas besoin des sons pour fonctionner...</font></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Bugs2.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">La modification des propriétés des 
+      éléments n'est plus sauvegardée 5 fois dans la mémoire d'annulation.</font></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Bugs2.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">Correction d'un bug dans la gestion 
+      des nombres à virgule flottante. Les zéros suivant immédiatement la 
+      virgule étaient supprimés (ex. : un nombre égal à 1.06 devenait 
+      égal à 1.6).</font></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Bugs2.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">Correction d'un bug dans la routine 
+      d'annulation qui risquait de provoquer des accès mémoire incorrects lors 
+      de l'annulation des changements après une défaillance du stockage d'une modification dans la mémoire 
+      d'annulation.</font></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Bugs2.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">L'ancien gestionnaire d'éléments ne 
+      changeait pas le nom de l'objet magique &quot;Tuer les lutins ennemis&quot; lorsque 
+      la carte était destinée à la version 1.7 du jeu. Ce tout petit bug a été 
+      corrigé avec le nouveau.</font></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Bugs2.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">Correction d'un bug susceptible de 
+      provoquer des accès illégaux aux listes internes lors de la sauvegarde 
+      automatique (il est néanmoins peu probable qu'une telle erreur puisse 
+      survenir - mais bon, on est jamais trop prudent :).</font></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Bugs2.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">Correction d'un petit bug qui pouvait 
+      provoquer l'activation de la fenêtre principale alors que celle-ci devait 
+      rester désactivée. EnableWindow() n'est pas cumulatif, contrairement à ce 
+      qui se faisait sur Amiga :(</font></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Bugs2.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">Correction de la fonction de 
+      compilation qui ne libérait pas la mémoire lors de la création du fichier 
+      relatif aux éléments.</font></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Bugs2.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">Correction de quelques bugs uniquement 
+      présents sous WindowsXP.</font></td>
+    </tr>
+    <tr>
+      <td width="37" height="1" valign="top">
+      <p align="center">
+      <img border="0" src="../Images/Bugs2.bmp" width="32" height="18"></td>
+      <td width="778" height="1" valign="middle">
+      <font face="MS Sans Serif" size="2">Quelques autres petites corrections 
+      mineures.</font></td>
+    </tr>
+    <tr>
+      <td width="815" height="1" colspan="2">
+      <font face="MS Sans Serif" size="2">&nbsp; </font></td>
+    </tr>
+    <tr>
+      <td width="815" height="23" colspan="2" valign="middle"><b>
+      <font face="MS Sans Serif" size="2">V37.00b1</font></b></td>
+    </tr>
+    <tr>
+      <td width="37" height="14" valign="top"></td>
+      <td width="778" height="14" valign="middle">
+      <font face="MS Sans Serif" size="2">Pas d'historique pour cette version.</font></td>
+    </tr>
+  </table>
+  </center>
+</div>
+<p style="margin:2 14; line-height: 100%; word-spacing: 0; padding: 0" align="left">
+ &nbsp;</p>
+
+</body>

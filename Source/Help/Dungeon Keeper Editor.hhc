@@ -1,0 +1,232 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800025">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Editeur">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Pr&eacute;sentation">
+			<param name="Local" value="Aide\Index.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Introduction">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Bienvenue">
+				<param name="Local" value="Aide\Introduction\Introduction.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mat&eacute;riel requis">
+				<param name="Local" value="Aide\Introduction\Matériel nécessaire.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Informations l&eacute;gales">
+				<param name="Local" value="Aide\Introduction\Informations légales.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Gestion des fichiers">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Nouvelle carte">
+				<param name="Local" value="Aide\Fichier\Nouvelle carte\Page.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Charger une carte">
+				<param name="Local" value="Aide\Fichier\Chargement\Page.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Charger rapidement une carte">
+				<param name="Local" value="Aide\Fichier\Fichiers récents\Page.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Sauvegarder une carte">
+				<param name="Local" value="Aide\Fichier\Sauvegarde\Page.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Compiler une carte">
+				<param name="Local" value="Aide\Fichier\Compilation\Page.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="L'&eacute;dition">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="La fen&ecirc;tre principale">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Pr&eacute;sentation">
+					<param name="Local" value="Aide\Edition\Fenêtre\Présentation\Page.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Barre d'outils">
+					<param name="Local" value="Aide\Edition\Fenêtre\Barre d'outils\Page.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Carte miniature et informations">
+					<param name="Local" value="Aide\Edition\Fenêtre\Carte miniature & Information\Page.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Les modes de dessin">
+					</OBJECT>
+				<UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Pr&eacute;sentation">
+						<param name="Local" value="Aide\Edition\Fenêtre\Modes de dessin\Présentation\Page.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Le rectangle">
+						<param name="Local" value="Aide\Edition\Fenêtre\Modes de dessin\Rectangle\Page.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="L'ellipse">
+						<param name="Local" value="Aide\Edition\Fenêtre\Modes de dessin\Ellipse\Page.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="La ligne">
+						<param name="Local" value="Aide\Edition\Fenêtre\Modes de dessin\Ligne\Page.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Le crayon">
+						<param name="Local" value="Aide\Edition\Fenêtre\Modes de dessin\Crayon\Page.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Le remplissage">
+						<param name="Local" value="Aide\Edition\Fenêtre\Modes de dessin\Remplissage\Page.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Les cr&eacute;atures">
+						<param name="Local" value="Aide\Edition\Fenêtre\Modes de dessin\Créatures\Page.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Les portes">
+						<param name="Local" value="Aide\Edition\Fenêtre\Modes de dessin\Portes\Page.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Les pi&egrave;ges">
+						<param name="Local" value="Aide\Edition\Fenêtre\Modes de dessin\Pièges\Page.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Les objets">
+						<param name="Local" value="Aide\Edition\Fenêtre\Modes de dessin\Objets\Page.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Les objets magiques">
+						<param name="Local" value="Aide\Edition\Fenêtre\Modes de dessin\Objets magiques\Page.htm">
+						</OBJECT>
+				</UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Barre d'&eacute;tat et carte">
+					<param name="Local" value="Aide\Edition\Fenêtre\Barre d'état & Carte\Page.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Le curseur">
+					<param name="Local" value="Aide\Edition\Fenêtre\Curseur\Page.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Le rectangle de s&eacute;lection">
+					<param name="Local" value="Aide\Edition\Fenêtre\Sélection\Page.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Les &eacute;l&eacute;ments du jeu">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Les terrains">
+					<param name="Local" value="Aide\Edition\Elements\Page.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Les salles">
+					<param name="Local" value="Aide\Edition\Salles\Page.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Les portails des h&eacute;ros">
+					<param name="Local" value="Aide\Edition\Portails des héros\Page.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Annuler les changements">
+				<param name="Local" value="Aide\Edition\Annulation\Page.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Les transformations">
+				<param name="Local" value="Aide\Edition\Transformations\Page.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Copier et coller">
+				<param name="Local" value="Aide\Edition\Copier-Coller\Page.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Charger et copier une zone">
+				<param name="Local" value="Aide\Edition\Sélection\Page.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Les bandes de h&eacute;ros">
+				<param name="Local" value="Aide\Edition\Gestion des héros\Page.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Le gestionnaire d'&eacute;l&eacute;ments">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="La gestion des cr&eacute;atures">
+					<param name="Local" value="Aide\Edition\Gestionnaire de créatures\Page.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="La gestion des portes et des pi&egrave;ges">
+					<param name="Local" value="Aide\Edition\Gestionnaire de portes et de pièges\Page.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="La gestion des objets">
+					<param name="Local" value="Aide\Edition\Gestionnaire d'objets\Page.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Le gestionnaire d'&eacute;v&egrave;nements">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Pr&eacute;sentation">
+					<param name="Local" value="Aide\Edition\Gestion des évènements\Présentation\Page.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Conditions">
+					<param name="Local" value="Aide\Edition\Gestion des évènements\Conditions\Page.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Historique des changements">
+			<param name="Local" value="Aide\Historique\Page.htm">
+			<param name="ImageNumber" value="10">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Bonus">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Niveaux normaux">
+			<param name="Local" value="Aide\Bonus\Niveaux normaux\Page.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Niveaux sp&eacute;ciaux">
+			<param name="Local" value="Aide\Bonus\Niveaux secrets\Page.htm">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

@@ -1,0 +1,747 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="fr">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Créateur de carte pour Dungeon Keeper II®</title>
+</head>
+
+<body TOPMARGIN="0" LEFTMARGIN="0" RIGHTMARGIN="0" BOTTOMMARGIN="0">
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 0; padding: 0" align="left">
+ &nbsp;</p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Le gestionnaire de créatures permet de 
+ modifier, de supprimer ou d'ajouter des créatures sur la carte ou dans une 
+ portion de la carte.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <img border="0" src="../Images/Fenêtre.jpg" width="535" height="383"></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">La fenêtre du gestionnaire est composée de 
+ 8 parties :</font></p>
+
+<blockquote>
+  <blockquote>
+    <ul type="circle">
+      <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-right: 14; margin-top: 2; margin-bottom: 2; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><a href="#Sélection">L'étendue de la 
+ sélection</a></font></p>
+
+        </li>
+      <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-right: 14; margin-top: 2; margin-bottom: 2; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><a href="#Classement">La méthode de 
+ classement</a></font></p>
+
+        </li>
+      <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-right: 14; margin-top: 2; margin-bottom: 2; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><a href="#Liste">La liste des créatures</a></font></p>
+
+        </li>
+      <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-right: 14; margin-top: 2; margin-bottom: 2; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><a href="#Elément">Le nouvel élément</a></font></p>
+
+        </li>
+      <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-right: 14; margin-top: 2; margin-bottom: 2; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><a href="#Modification">La modification</a></font></p>
+
+        </li>
+      <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-right: 14; margin-top: 2; margin-bottom: 2; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><a href="#Ajout">L'ajout</a></font></p>
+
+        </li>
+      <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-right: 14; margin-top: 2; margin-bottom: 2; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><a href="#Opérations">Les opérations 
+ additionnelles</a></font></p>
+
+        </li>
+      <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><a href="#Annulation">L'annulation</a></font></p>
+
+        </li>
+    </ul>
+  </blockquote>
+</blockquote>
+
+<ul>
+  <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <b><font face="MS Sans Serif" size="2"><a name="Sélection"></a>L'étendue de la sélection (1)</font></b></p>
+
+  </li>
+</ul>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Ce bouton vous permet de sélectionner 
+ quelle partie de la carte doit être prise en compte. Vous pouvez soit 
+ sélectionner la carte entière, auquel cas toutes les créatures présentes sur la 
+ carte seront affichées, soit sélectionner le rectangle de sélection, auquel cas 
+ seules les créatures présentes à l'intérieur du carré de sélection seront 
+ affichées. Si jamais aucun rectangle de sélection n'est tracé, ce bouton sera 
+ grisé et toutes les créatures seront affichées.</font></p>
+
+<ul>
+  <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <b><font face="MS Sans Serif" size="2"><a name="Classement"></a>La méthode de classement (2)</font></b></p>
+
+  </li>
+</ul>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Vous pouvez choisir 5 méthodes de 
+ classement :</font></p>
+
+<blockquote>
+  <ul type="square">
+    <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 8; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">En fonction de la position. Les créatures 
+ seront classées en fonction de leur position sur la carte. Le classement 
+ s'opère de gauche à droite sur l'axe des X puis de haut en bas sur l'axe des Y.</font></p>
+
+    </li>
+    <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 8; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">En fonction du nom. Les créatures seront 
+ classées par ordre alphabétique.</font></p>
+
+    </li>
+    <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 8; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">En fonction du détenteur. Les créatures 
+ seront classées suivant le joueur qui les détient. Les créatures appartenant 
+ aux héros seront les premières, les créatures neutres les suivront puis les 
+ créatures du gardien 1 viendront ensuite et ce jusqu'au gardien 5.</font></p>
+
+    </li>
+    <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 8; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">En fonction de l'identificateur. Il s'agit 
+ d'une donnée interne à l'éditeur. Chaque créature possède un identificateur 
+ propre qui permet de les différencier. Les créatures ayant l'identificateur le 
+ plus faible seront placées en premier et ainsi de suite.</font></p>
+
+    </li>
+    <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 8; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">En fonction du type. Avec cette méthode de 
+ classement, les créatures sont classés de la même manière que lorsque vous 
+ sélectionner une créature (les lutins en premier suivis par les gobelins, 
+ etc.).</font></p>
+
+    </li>
+  </ul>
+</blockquote>
+<ul>
+  <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <b>
+ <font face="MS Sans Serif" size="2"><a name="Liste"></a>La liste des créatures (3)</font></b></p>
+
+  </li>
+</ul>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">C'est là que s'affichent les créatures se 
+ trouvant dans la portion sélectionnée. Vous y trouverez le nom des créatures (<b>Nom</b>), 
+ ceux qui les détiennent (<b>Détenteur</b>), les niveaux des créatures (<b>Niv</b>.), 
+ le pourcentage d'or qu'elles possèdent par rapport au maximum qu'elles peuvent 
+ porter (<b>Or</b>), le pourcentage de vie qui leur reste par rapport au maximum 
+ (<b>Santé</b>), les options des héros (<b>Options</b>), les objectifs des héros 
+ (<b>Objectifs</b>) et enfin la position des créatures sur la carte.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Pour 
+ sélectionner une créature, appuyez sur le bouton gauche de la souris. En 
+ appuyant sur Ctrl, vous pouvez sélectionner plusieurs créatures à la fois. Pour 
+ sélectionner plusieurs créatures qui se suivent en une seule fois, sélectionnez 
+ d'abord la première créature, maintenez ensuite la touche Shift enfoncée et 
+ sélectionnez la dernière créature.</font></p>
+
+<ul>
+  <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <b><font face="MS Sans Serif" size="2"><a name="Elément"></a>Le nouvel élément (4)</font></b></p>
+
+  </li>
+</ul>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Il s'agit de toutes les options relatives 
+ à la nouvelle créature. Ce sont les options qui sont utilisées lorsque vous 
+ ajoutez une ou plusieurs créatures ou lorsque vous modifiez des créatures 
+ existantes. La créature actuellement sélectionnée apparaît dans la boîte grise 
+ à gauche du bouton intitulé &quot;Modifier&quot;. Pour modifier cette créature ainsi que 
+ ses paramètres, cliquez sur ce bouton (voir les
+ <a href="../../Fenêtre/Modes%20de%20dessin/Présentation/Pages/Aide.htm">modes de dessins</a> pour avoir 
+ de plus amples informations à propos de ces paramètres). Vous pouvez également 
+ changer les
+ <a href="../../Fenêtre/Modes%20de%20dessin/Créatures/Pages/Aide.htm#CréaturesOptions">options des 
+ créatures</a>, les
+ <a href="../../Fenêtre/Modes%20de%20dessin/Créatures/Pages/Aide.htm#HérosOptions">options des héros</a> 
+ et l'<a href="../../Fenêtre/Modes%20de%20dessin/Créatures/Pages/Aide.htm#Objectif">objectif</a> sans passer par la 
+ fenêtre de sélection des créatures en cliquant sur les boutons correspondants.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">En plus des options classiques, vous pouvez 
+ également modifier la position de la créature sur la carte. Cette position est 
+ utilisée lorsque vous ajoutez une nouvelle créature ou que vous modifiez une ou 
+ plusieurs créature et que vous modifiez leurs positions.</font></p>
+
+<ul>
+  <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <b>
+ <font face="MS Sans Serif" size="2"><a name="Modification"></a>La modification (5)</font></b></p>
+
+  </li>
+</ul>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">La modification vous permet de modifier les 
+ paramètres d'une ou plusieurs créatures. Pour ce faire, vous devez sélectionner 
+ la ou les créatures que vous désirez modifier dans la liste des créatures (3). 
+ Selon ce que vous désirez modifier, n'oubliez pas de changer les paramètres du 
+ nouvel élément (4) si nécessaire. Ensuite vous pouvez soit cliquer sur le 
+ bouton &quot;&lt;&lt; Modifier&quot; directement ou changer les 
+ <a href="#OptionsModification">options de la modification</a>.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">En plus des boutons &quot;&lt;&lt; Modifier&quot; qui 
+ permet de modifier la ou les créatures sélectionnées et &quot;Options&quot; qui permet de 
+ sélectionner les <a href="#OptionsModification">options de la modification</a>, 
+ cette partie comporte deux boîtes à cocher :</font></p>
+
+<blockquote>
+  <ul type="square">
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Demander les options avant de modifier</b>. 
+ Si cette boîte est cochée, <a href="#OptionsModification">la fenêtre des 
+ options</a> s'affichera lorsque vous cliquerez sur &quot;&lt;&lt; Modifier&quot;. Cela vous 
+ permet de sélectionner directement vos options avant de procéder à la 
+ modification. Ce paramètre est ignoré lorsque vous ne modifiez qu'une créature.</font></p>
+
+    </li>
+  </ul>
+  <ul type="square">
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Afficher l'aperçu avant de modifier</b>. 
+ Si cette boîte est cochée, l'éditeur affichera <a href="#Aperçu">la fenêtre 
+ d'aperçu</a> qui vous montrera les créatures avant et après la modification 
+ (qui n'a pas encore eu lieu) et les problèmes rencontrés. La fenêtre d'aperçu 
+ peut s'afficher même si la boîte n'est pas cochée, tout dépend des options que 
+ vous avez sélectionnées et des problèmes rencontrés.</font></p>
+
+    </li>
+  </ul>
+</blockquote>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <i><font face="MS Sans Serif" size="2"><a name="OptionsModification"></a>Les options de la modification</font></i></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <img border="0" src="../Images/Options%20de%20modification.jpg" width="193" height="321"></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Les options de la modification regroupent 
+ toute une série de paramètres vous permettant de mieux contrôler la façon dont 
+ l'éditeur va modifier les créatures sélectionnées. Notez que les options sont 
+ ignorées lorsque vous ne modifiez qu'une seule créature.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Globalement, ce qu'il faut retenir ici 
+ c'est que lorsqu'une case est cochée le paramètre correspondant est remplacé 
+ par celui que vous avez sélectionné pour le nouvel élément. Les options 
+ agissent ainsi un peu comme un filtre, laissant certains paramètres inchangés 
+ tandis que d'autres le sont. C'est très utile lorsque vous ne voulez modifier 
+ qu'un seul paramètre sur plusieurs créatures comme par exemple le montant d'or 
+ sans toucher aux autres paramètres.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Ne perdez pas non plus de vue que les 
+ options sont communes aux créatures, aux portes et aux pièges, ainsi qu'aux 
+ objets et objets magiques. Les paramètres particuliers mis à part, toutes les 
+ paramètres que vous sélectionnez dans un gestionnaire influent sur les autres.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Dans les options générales, vous pouvez 
+ sélectionner 3 types des paramètres à modifier : la position de la créature sur 
+ la carte, le type de créature et celui qui détient la créature. Ces options 
+ sont générales car elles sont communes aux créatures, aux portes, aux pièges, 
+ aux objets et aux objets magiques.</font></p>
+
+<blockquote>
+  <ul type="square">
+    <li>
+
+<p style="margin:2 14; line-height: 100%; word-spacing: 0; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Modifier la position</b>. Si cette boîte 
+ est cochée, la position des créatures sélectionnées sera modifiée. Vous aurez 
+ alors le choix entre utiliser la même position pour toutes les créatures, dans 
+ ce cas les créatures seront toutes placées au même endroit, et utiliser une 
+ position relative. Si tel est le cas le programme calculera la distance entre 
+ la position indiquée et la position de chaque créature et utilisera cette 
+ distance pour repositionner les créatures. En fait, dans ce dernier cas, tout 
+ ce passe comme si vous aviez spécifié la position du coin supérieur gauche du 
+ rectangle englobant toutes les créatures.</font></p>
+
+    </li>
+  </ul>
+</blockquote>
+<div align="right">
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" height="257" id="AutoNumber1" width="80%">
+    <tr>
+      <td width="100%" height="100%">
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Par exemple, si vous modifiez 4 créatures 
+ en même temps et que vous spécifiez des positions X et Y situées en bas et à 
+ gauche de ces créatures, toutes les créatures seront déplacées de la même 
+ distance vers le bas et la gauche (voir image ci-dessous).</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="center">
+ <img border="0" src="../Images/Positions.jpg" width="199" height="105"></p>
+
+<p style="margin:2 14; line-height: 100%; word-spacing: 0; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Comme vous le voyez sur cette image, les 
+ quatre points ont bien été déplacés, la position que vous avez spécifiée 
+ (indiquée en rouge sur le dessin) correspond bien au coin supérieur gauche du 
+ rectangle qui englobe toutes les créatures.</font></p>
+
+      </td>
+    </tr>
+  </table>
+</div>
+<blockquote>
+  <ul type="square">
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Modifier le type</b>. Si cette boîte est 
+ cochée, les créatures sélectionnées auront toutes le même type que celui que 
+ vous avez sélectionné pour le nouvel élément. Par exemple, si le nouvel élément 
+ est un lutin, toutes les créatures sélectionnées deviendront des lutins.</font></p>
+
+    </li>
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Modifier le détenteur</b>. Si cette 
+ boîte est cochée, les créatures sélectionnées appartiendront toutes au même 
+ joueur que celui que vous avez sélectionné pour le nouvel élément. Si jamais le 
+ nouvel élément utilise un détenteur automatique, c'est le terrain sur lequel 
+ les créatures sélectionnées se trouvent qui déterminera à qui appartiendra 
+ telle ou telle créature. Par exemple, si une créature se trouve sur un terrain 
+ appartenant au gardien 1, elle appartiendra au gardien 1.</font></p>
+
+    </li>
+  </ul>
+</blockquote>
+
+<p style="margin:2 14; line-height: 100%; word-spacing: 0; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><a name="Problèmes"></a>La partie intitulée &quot;En cas de problème&quot; 
+ permet de modifier le comportement de l'éditeur lorsqu'il rencontre certains 
+ problèmes. D'une manière générale, il s'agit de forcer l'éditeur à ignorer 
+ certains problèmes (comme un terrain normalement incompatible).</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Notez que certains problèmes peuvent 
+ apparaître lors de la modification même lorsque vous ne modifiez pas tous les 
+ paramètres. Par exemple, si vous aviez placé un héro sur un terrain appartenant 
+ à un gardien, le gestionnaire le signalera comme problème quand bien même vous 
+ n'avez pas modifié la position de ce héro.</font></p>
+
+<blockquote>
+  <ul type="square">
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Ignorer les terrains incompatibles</b>. 
+ Si cette boîte est cochée, l'éditeur modifiera la créature même si le terrain 
+ sur lequel elle se trouve ne doit normalement pas recevoir de créature. Il 
+ s'agit notamment de la roche impénétrable, de la roche, de l'or, etc.</font></p>
+
+    </li>
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Ignorer les terrains fatals</b>. Si 
+ cette boîte est cochée, l'éditeur modifiera la créature même si le terrain sur 
+ lequel elle se trouve lui est fatal. Par défaut, l'eau est fatal pour les 
+ vampires et la lave est fatale pour de nombreuses autres créatures.</font></p>
+
+    </li>
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Ignorer les terrains ennemis</b>. Si 
+ cette boîte est cochée, l'éditeur ne tiendra pas compte du fait que la créature 
+ ne se trouve pas sur un terrain allié. Les terrains alliés sont les terrains 
+ neutres et les terrains appartenant au joueur qui détient la créature.</font></p>
+
+    </li>
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Ignorer les incompatibilités</b>. Si 
+ cette boîte est cochée, l'éditeur ne vous signalera pas les éventuels problèmes 
+ de compatibilité entre les différents types d'élément. Ce type de problème peut 
+ survenir lorsqu'une créature n'appartenant aux héros se voit attribuer des 
+ options de héros ou un objectif. L'éditeur corrigera de lui-même ce genre de 
+ problème en supprimant les informations superflues, décocher cette boîte n'a 
+ donc qu'un intérêt purement informatif.</font></p>
+
+    </li>
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Afficher l'aperçu</b>. Si cette boîte 
+ est cochée, l'éditeur affichera <a href="#Aperçu">la fenêtre d'aperçu</a> s'il 
+ rencontre les problèmes précédemment énoncés (terrain incompatible, terrain 
+ fatal, terrain ennemi et incompatibilités). Si cette boîte n'est pas cochée et 
+ qu'un problème survient, l'éditeur modifiera les créatures uniquement si vous 
+ avez choisi d'ignorer certains problèmes; dans le cas contraire, la créature ne 
+ sera PAS modifiée.</font></p>
+
+    </li>
+  </ul>
+</blockquote>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Les paramètres particuliers sont propres à 
+ chaque type d'éléments. Pour les créatures, vous pouvez :</font></p>
+
+<blockquote>
+  <ul type="square">
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Modifier le niveau</b>. Si cette boîte 
+ est cochée, le niveau de toutes les créatures sélectionnées sera modifié pour 
+ devenir celui que vous choisi pour le nouvel élément.</font></p>
+
+    </li>
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Modifier l'or</b>. Si cette boîte est 
+ cochée, le montant d'or des créatures deviendra celui que vous avez sélectionné 
+ pour le nouvel élément.</font></p>
+
+    </li>
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Modifier la santé</b>. Si cette boîte 
+ est cochée, la santé des créatures sera modifiée pour être égale à celle que 
+ vous avez choisi pour le nouvel élément.</font></p>
+
+    </li>
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Modifier les options des créatures</b>. 
+ Lorsque vous cochez cette boîte, deux options s'offrent à vous. Soit vous 
+ choisissez de sélectionner toutes les options, auquel cas les options 
+ spécifiées dans le nouvel élément remplaceront les options des créatures 
+ sélectionnée; soit vous choisissez de sélectionner les options séparément et là 
+ seules les options sélectionnées seront modifiées. Par exemple, imaginons que 
+ les créatures sélectionnées aient pour options TA---- (les créatures peuvent 
+ attaquer et être attaquées), que le nouvel élément ait comme options T-H--- (la 
+ créature peut attaquer et rejoindre l'antre des héros), et que vous 
+ sélectionnez comme options à modifier --H--- (la créature peut rejoindre 
+ l'antre des héros); le résultat final pour toutes les créatures deviendra 
+ TAH--- (les créatures peuvent attaquer, être attaquées et rejoindre l'antre des 
+ héros). Maintenant imaginons que vous sélectionnez comme options à modifier -AH---, 
+ vous aurez comme résultat T-H--- (les créatures peuvent être attaquées et 
+ rejoindre l'antre des héros) pour toutes les créatures. Le A a disparu car il 
+ n'était pas sélectionné dans le nouvel élément.</font></p>
+
+    </li>
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Modifiez les options des héros</b>. Ce 
+ paramètres fonctionne de la même façon que les options des créatures sauf qu'il 
+ est appliqué aux options des héros.</font></p>
+
+    </li>
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Modifier l'objectif</b>. Si cette boîte 
+ est cochée, l'objectif des créatures sélectionnées sera modifié. Notez que 
+ seuls les héros peuvent avoir un objectif.</font></p>
+
+    </li>
+  </ul>
+</blockquote>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Une fois que vous avez sélectionné les 
+ options à modifier et les problèmes à ignorer, cliquer sur &quot;Ok&quot; pour valider 
+ les changements.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <i><font face="MS Sans Serif" size="2"><a name="Aperçu"></a>La fenêtre d'aperçu</font></i></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <img border="0" src="../Images/Fenêtre%20d'aperçu.jpg" width="431" height="353"></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">La fenêtre d'aperçu vous permet de vous 
+ rendre compte du résultat de vos modifications avant que celles-ci ne prennent 
+ définitivement place. La liste en haut à gauche de la fenêtre contient toutes 
+ les créatures que vous avez sélectionné, elles apparaissent telles qu'elles 
+ étaient avant la modification. La liste en haut à droite contient les mêmes 
+ créatures mais après modification. Le résultat des modifications dépends des 
+ options que vous avez sélectionnées et des paramètres du nouvel élément.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Si une créature est marquée comme étant &quot;** 
+ Inchangé **&quot;, c'est que l'éditeur a détecté un problème. Si une créature est 
+ marquée comme étant &quot;(Inchangé)&quot; cela signifie qu'elle ne sera pas changée en 
+ raison des choix précédents. Dans le cas des créatures, cela arrive lorsqu'une 
+ ou plusieurs créatures sont utilisées par les évènements et que vous avez 
+ répondu &quot;Non&quot; à la requête.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Les problèmes sont répertoriés dans la 
+ liste du bas, même les problèmes que vous désiriez ignorer sont répertoriés 
+ mais dans ce cas l'action par défaut sera &quot;modifier&quot; et non &quot;ne rien faire&quot;.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Chaque problème est divisé en 6 colonnes :</font></p>
+
+<blockquote>
+  <ul type="square">
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; padding: 0; margin-left:14; margin-right:14; margin-top:2; margin-bottom:10" align="left">
+ <font face="MS Sans Serif" size="2"><b>Action</b>. C'est l'action préconisée 
+ par l'éditeur. &quot;Ne rien faire&quot; signifie que la créature ne sera pas modifiée, 
+ elle restera en l'état après la modification. Vous pouvez modifier l'action à 
+ effectuer en cliquant sur le problème et en sélectionnant l'action désirée. 
+ Vous pour soit choisir de &quot;Ne rien faire&quot; soit choisir de &quot;Supprimer&quot; la 
+ créature posant problème soit de la &quot;Modifier&quot; malgré tout. Certains problèmes 
+ empêchent catégoriquement la modification de la créature : il s'agit des 
+ problèmes qui surviennent lorsque la créature se retrouve hors de la carte (ce 
+ qui peut arriver lors du calcul d'une position relative) ou lorsqu'elle se 
+ retrouve sur une limite du monde. Si l'un de ces problèmes survient, vous 
+ n'aurez d'autre choix que de ne rien faire ou de supprimer la créature.</font></p>
+
+    </li>
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; padding: 0; margin-left:14; margin-right:14; margin-top:2; margin-bottom:10" align="left">
+ <font face="MS Sans Serif" size="2"><b>Positions X/Y</b>. Ce sont les positions 
+ de la créature APRES sa modification.</font></p>
+
+    </li>
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; padding: 0; margin-left:14; margin-right:14; margin-top:2; margin-bottom:10" align="left">
+ <font face="MS Sans Serif" size="2"><b>Terrain</b>. Il s'agit du type de 
+ terrain se trouvant sous la créature.</font></p>
+
+    </li>
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; padding: 0; margin-left:14; margin-right:14; margin-top:2; margin-bottom:10" align="left">
+ <font face="MS Sans Serif" size="2"><b>Problème lié au terrain</b>. Si aucun 
+ texte n'apparaît ici, c'est qu'aucun problème lié au terrain n'a été détecté. 
+ Dans le cas contraire, le texte vous indique quel genre de problème l'éditeur à 
+ rencontré.</font></p>
+
+    </li>
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; padding: 0; margin-left:14; margin-right:14; margin-top:2; margin-bottom:10" align="left">
+ <font face="MS Sans Serif" size="2"><b>Problème d'incompatibilité</b>. Ici, 
+ l'éditeur vous informera éventuellement des problèmes d'incompatibilités entre 
+ les paramètres.</font></p>
+
+    </li>
+    <li>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Remplace</b>. Cette colonne n'est 
+ d'aucune utilité dans le gestionnaire de créatures car une créature ne peut 
+ jamais remplacer quelque chose.</font></p>
+
+    </li>
+  </ul>
+</blockquote>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Pour sélectionner un problème, cliquez 
+ dessus à l'aide du bouton gauche de la souris. La créature ayant généré le 
+ problème sera également sélectionnée dans les listes du haut. Pour sélectionner 
+ plusieurs problèmes, utilisez les touches Shift et Ctrl.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Lorsque vous avez sélectionné les actions à 
+ effectuer, cliquez sur &quot;Continuer&quot; pour procéder à la modification ou sur 
+ annuler pour tout interrompre.</font></p>
+
+<ul>
+  <li>
+  <p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+  <b><font face="MS Sans Serif" size="2"><a name="Ajout"></a>L'ajout (6)</font></b></li>
+</ul>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<font face="MS Sans Serif" size="2">L'ajout vous permet de placer une ou 
+plusieurs créatures sur la carte. S'il est parfaitement possible de n'ajouter 
+qu'une seule créature à l'aide du gestionnaire, son intérêt réside surtout dans 
+le fait de pouvoir ajouter plusieurs créatures en une seule fois.</font></p>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<font face="MS Sans Serif" size="2">L'ajout fonctionne de manière similaire à la 
+modification. Vous devez d'abord sélectionner les options de la créature dans la 
+partie nouvel élément avec éventuellement sa position sur la carte, et ensuite 
+vous pouvez soit modifier les options d'ajout soit ajouter directement (si la 
+case &quot;Demander les options avant d'ajouter&quot; est cochée, la fenêtre d'options 
+s'affichera avant l'ajout).</font></p>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<i>
+<font face="MS Sans Serif" size="2">Les options d'ajout</font></i></p>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<img border="0" src="../Images/Options%20d'ajout.jpg" width="213" height="241"></p>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<font face="MS Sans Serif" size="2">Ces options sont divisées en 3 parties 
+distinctes dont seules 2 ont un intérêt pour le gestionnaire de créature.</font></p>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<font face="MS Sans Serif" size="2">Il y a tout d'abord les paramètres d'ajout 
+qui permettent de définir le méthode d'ajout qui sera utilisée. Vous avez le 
+choix entre :</font></p>
+<blockquote>
+  <ul type="square">
+    <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<font face="MS Sans Serif" size="2">Ajouter à la position spécifiée. Si vous 
+choisissez cette méthode, une seule créature sera ajoutée sur la carte. 
+L'éditeur utilisera la position spécifiée pour le nouvel élément pour savoir où 
+ajouter cette créature.</font></p>
+    </li>
+    <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<font face="MS Sans Serif" size="2">Ajouter dans tout le rectangle. Avec cette 
+méthode, vous remplirez le rectangle sélectionné (carte ou rectangle de 
+sélection selon <a href="#Sélection">l'étendue de sélection</a> spécifiée) avec 
+le nouvel élément. A l'issu de l'ajout, chaque carré compris dans ce rectangle 
+contiendra une créature (sauf en cas de problème).</font></p>
+    </li>
+    <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<font face="MS Sans Serif" size="2">Ajouter aléatoirement dans tout le 
+rectangle. Cette méthode fonctionne de la même manière que la précédente mais, à 
+la différence de celle-ci, tous les carrés ne contiendront pas forcément une 
+créature à la fin. C'est le hasard qui&nbsp; déterminera le résultat final. Vous 
+pouvez modifier le nombre de chances qu'une créature a d'être ajoutée en faisant 
+glisser le curseur vers la droite ou vers la gauche. Plus le nombre qui se situe 
+à sa droite est élevé, moins la créature aura de chance d'être ajoutée. Par 
+exemple, si ce nombre indique 16, il y aura 1 chance sur 16 pour que la créature 
+soit ajoutée.</font></p>
+    </li>
+  </ul>
+</blockquote>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<font face="MS Sans Serif" size="2">Ensuite, vous pouvez forcer l'éditeur à 
+ignorer certains problèmes ou lui demander d'afficher la fenêtre d'aperçu pour 
+que vous puissiez quoi faire selon le problème rencontré. Les options sont 
+exactement les mêmes que pour la <a href="#Problèmes">modification</a>. La seule 
+différence est que vous ne pouvez pas ignorer les incompatibilités mais c'est 
+uniquement parce qu'il ne peut pas y en avoir :).</font></p>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<font face="MS Sans Serif" size="2">Enfin, les options vous permettent de 
+modifier le comportement de l'éditeur lorsqu'un élément en remplace un autre. 
+Comme les créatures ne peuvent pas remplacer d'autres éléments (il peut y avoir 
+plusieurs créatures dans un même carré), cette partie est grisée.</font></p>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<i><font face="MS Sans Serif" size="2">La fenêtre d'aperçu</font></i></p>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<img border="0" src="../Images/Fenêtre%20d'aperçu%20(ajout).jpg" width="431" height="353"></p>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<font face="MS Sans Serif" size="2">La fenêtre d'aperçu s'affiche lorsqu'un 
+problème a été rencontré ou lorsque vous avez coché la case &quot;Afficher l'aperçu 
+avant d'ajouter&quot; dans la fenêtre du gestionnaire. Cette fenêtre fonctionne de 
+manière similaire à celle qui s'affiche lors de la <a href="#Aperçu">
+modification</a>.</font></p>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<font face="MS Sans Serif" size="2">Les seules différences résident dans le fait 
+que la liste des créatures sélectionnées n'existe plus (forcément puisque vous 
+ne modifiez pas de créatures) et qu'il n'est pas possible de sélectionner 
+l'action &quot;Supprimer&quot; (ce qui est une fois de plus logique puisqu'il s'agit d'un 
+ajout, la créature n'existe pas avant qu'elle ait été ajoutée - cqfd).</font></p>
+<ul>
+  <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<b><font face="MS Sans Serif" size="2"><a name="Opérations"></a>Les opérations 
+additionnelles (7)</font></b></p>
+  </li>
+</ul>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<font face="MS Sans Serif" size="2">Trois opérations peuvent être utilisés :</font></p>
+<blockquote>
+  <ul type="square">
+    <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<font face="MS Sans Serif" size="2"><b>Supprimer</b>. Si vous appuyez sur ce 
+bouton, toutes les créatures sélectionnées seront supprimées. Une requête 
+s'affichera pour vous demander de confirmer votre choix.</font></p>
+    </li>
+    <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<font face="MS Sans Serif" size="2"><b>Voir</b>. Permet de voir la créature 
+sélectionnée sur la carte. Vous ne pouvez visualiser qu'une seule créature à la 
+fois.</font></p>
+    </li>
+    <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<font face="MS Sans Serif" size="2"><b>Tout sélectionner</b>. Si vous cliquez 
+sur ce bouton, toutes les créatures présentes dans la liste seront sélectionnées.</font></p>
+    </li>
+  </ul>
+</blockquote>
+<ul>
+  <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<b><font face="MS Sans Serif" size="2"><a name="Annulation"></a>L'annulation (8)</font></b></p>
+  </li>
+</ul>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+<font face="MS Sans Serif" size="2">Ce bouton est uniquement là pour vous éviter 
+de devoir fermer la fenêtre du gestionnaire pour annuler les changements 
+effectués. Pour ce faire, le gestionnaire comptabilise les modifications 
+apportés aux éléments pendant que vous utilisiez le gestionnaire et autorise 
+autant d'annulation qu'il y a eu de changements. Ceci étant, si vous fermez la 
+fenêtre du gestionnaire, il vous sera toujours possible d'annuler les 
+modifications que vous avez apporté à vos éléments en sélectionnant
+<a href="../../Annulation/Pages/Aide.htm">Annuler la dernière opération</a> ou en appuyant sur 
+Ctrl+Z.</font></p>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+&nbsp;</p>
+
+</body>

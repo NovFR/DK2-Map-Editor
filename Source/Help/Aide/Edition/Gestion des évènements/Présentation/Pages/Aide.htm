@@ -1,0 +1,220 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="fr">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Créateur de carte pour Dungeon Keeper II®</title>
+</head>
+
+<body TOPMARGIN="0" LEFTMARGIN="0" RIGHTMARGIN="0" BOTTOMMARGIN="0">
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 0; padding: 0" align="left">
+ &nbsp;</p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Les évènements permettent d'interagir avec 
+ le monde et les créatures qui le composent. Ils permettent de définir ce qui se 
+ passe dans votre niveau et à quel moment cela doit se passer. Grâce aux 
+ évènements, vous pourrez créer des cartes plus vivantes et plus complexes.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Pour modifier les évènements, sélectionnez 
+ d'abord le menu Edition et sélectionnez &quot;Gestion des évènements&quot;. La fenêtre du 
+ gestionnaire apparaît alors (image ci-dessous).</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="center">
+ <img border="0" src="../Images/Gestionnaire%20d'évènements.jpg" width="429" height="333"></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Le gestionnaire d'évènements comporte deux 
+ parties principales que sont les <b>points d'actions</b> et <b>la liste des conditions et 
+ actions</b>.</font></p>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="90%" id="AutoNumber1">
+    <tr>
+      <td width="4%" valign="middle">
+      <img border="0" src="../../../../Images/Avertissement.bmp" width="32" height="34"></td>
+      <td width="96%" valign="middle">&nbsp;<font color="#FF0000"><b>Les 
+      modifications effectuées sur les évènements ne peuvent *PAS* être 
+      annulées.</b></font></td>
+    </tr>
+  </table>
+  </center>
+</div>
+<ul>
+  <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <b><font face="MS Sans Serif" size="2">Les points d'action</font></b></p>
+
+  </li>
+</ul>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Un <b>point d'action</b> est le lieu 
+ d'origine des évènements, c'est le point d'action qui détermine la source de 
+ l'évènement mais aussi la cible des actions que cet évènement engendre. Vous ne 
+ pouvez pas utiliser le moindre évènement sans préalablement définir un point 
+ d'action. Il existe plusieurs points d'actions :</font></p>
+
+<blockquote>
+  <ul type="square">
+    <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Le niveau</b>. Ce point d'action ne 
+ dépend d'aucune entité présente sur la carte (ni gardien, ni zone, ni créature, 
+ ni bande de héros). Il peut être utilisé lorsque vous désirez effectuer des 
+ tests généraux (comme le temps écoulé depuis le début du niveau) et déclencher 
+ des actions qui auront une répercussion sur l'ensemble de la carte (comme 
+ modifier un carré de terrain) et qui affecteront tous les joueurs.
+ <font color="#00FF00">Le niveau ne peut être utilisé qu'une seule comme point 
+ d'action</font>.</font></p>
+
+    </li>
+  </ul>
+  <ul type="square">
+    <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Les gardiens</b>. Les gardiens 
+ regroupent à la fois les joueurs (qu'ils soient gérés par l'ordinateur ou non), 
+ le joueur neutre et les héros. C'est à partir de ce style de point d'action que 
+ vous pouvez par exemple savoir si un joueur a cliqué sur un bouton de 
+ l'interface ou déterminer le montant d'or détenu par tel ou tel joueur. Ainsi, 
+ toutes les conditions et actions relatives aux gardiens et aux mouvements de 
+ caméras doivent être testés et déclenché à partir d'un gardien.
+ <font color="#00FF00">Chaque gardien ne peut être utilisé qu'une fois comme 
+ point d'action</font>.</font></p>
+
+    </li>
+    <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Les zones</b>. Les zones sont des 
+ parties spécifiques de la carte. Elles se définissent grâce aux gestionnaire de 
+ zones. Pour tester des conditions et déclencher des actions à partir d'un 
+ endroit précis de la carte, il est donc nécessaire d'utiliser une zone comme 
+ point d'action. <font color="#00FF00">Chaque zone ne peut être utilisée qu'une 
+ fois comme point d'action</font>.</font></p>
+
+    </li>
+    <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Les créatures</b>. Si jamais vous voulez 
+ tester les altérations subies par une créature déterminée ou si vous voulez 
+ modifier ses paramètres, vous devez définir cette créature comme point 
+ d'action. Par exemple, pour savoir si le joueur a tué le seigneur du royaume, 
+ il est nécessaire de sélectionner les créatures comme point d'action et 
+ d'ensuite sélectionner le Grand seigneur. <font color="#00FF00">Chaque créature 
+ ne peut être utilisée qu'une fois comme point d'action</font>.</font></p>
+
+    </li>
+    <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Les bandes de héros</b>. Lorsque vous 
+ désirez tester s'il se produit quelque à l'intérieur d'une bande de héros, 
+ c'est ce style de point d'action qu'il faut sélectionner. Notez toutefois que 
+ la plupart des conditions relatives aux bandes de héros peuvent être testées à 
+ partir des autres points d'action, l'intérêt de ce point d'action est donc 
+ relativement limité.<font color="#FF0000"> </font><font color="#00FF00">Chaque 
+ bande de héros ne peut être utilisée qu'une fois comme point d'action</font>.</font></p>
+
+    </li>
+    <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2"><b>Les créatures dans les bandes de héros</b>. 
+ Ce point d'action est identique au point d'action concernant les créatures sauf 
+ qu'il est appliqué aux créatures se trouvant à l'intérieur d'une bande de 
+ héros. Ce genre de point d'action est extrêmement pratique lorsque vous désirez 
+ savoir, par exemple, si le joueur a tué telle ou telle créature à l'intérieur 
+ d'une bande.<font color="#FF0000"> </font><font color="#00FF00">Chaque créature 
+ ne peut être utilisée qu'une fois comme point d'action</font>.</font></p>
+
+    </li>
+  </ul>
+</blockquote>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Pour créer un nouveau point d'action, 
+ cliquez sur les boutons &quot;Ajouter&quot; ou &quot;Insérer&quot; situés à droite de la liste des 
+ points d'actions. Une fenêtre va alors apparaître vous proposant tous les types 
+ de points d'action possible. Cliquez sur le type de point d'action désiré puis 
+ sélectionnez le gardien, la zone, la créature ou la bande de héros qui fera 
+ l'objet d'évènements. Si les gardien, les zones, les créatures ou les bandes de 
+ héros sont grisées, cela signifie qu'ils ont déjà été défini comme point 
+ d'action.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Si vous <b>ajoutez</b> le nouveau point 
+ d'action, celui-ci se retrouvera en fin de liste. Si vous <b>insérez</b> le 
+ nouveau point d'action, celui-ci se retrouvera avant le point d'action 
+ sélectionné.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Pour <b>modifier</b> un point d'action, 
+ sélectionnez le point d'action que vous désirez modifier dans la liste des 
+ points d'actions et cliquez sur le bouton &quot;Modifier&quot; situé à droite de cette 
+ liste. Lorsque vous modifiez un point d'action, il n'est pas possible de 
+ modifier son type, vous pouvez juste modifier le gardien, la zone, la créature 
+ ou la bande de héros selon le type de point d'action envisagé.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Pour <b>supprimer</b> un point d'action, 
+ sélectionnez le point d'action que vous désirez supprimer dans la liste des 
+ points d'actions et cliquez sur le bouton &quot;Supprimer&quot; situé à droite de cette 
+ liste. Une requête vous demandera de confirmer votre choix. Pour supprimer un 
+ point d'action vous pouvez également utiliser la touche Suppr.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Les deux derniers boutons (ceux qui 
+ contiennent des flèches) servent à déplacer le point d'action sélectionner vers 
+ le haut et vers le bas. La position des points d'action les uns par rapport aux 
+ autres n'a aucune incidence sur la façon dont ils sont utilisés par le jeu, le 
+ fait de pouvoir déplacer un point d'action est juste là pour vous permettre de 
+ classer vos points d'action afin de mieux vous y retrouver.</font></p>
+
+<ul>
+  <li>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <b><font face="MS Sans Serif" size="2">La liste des conditions et actions</font></b></p>
+
+  </li>
+</ul>
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Les <b>conditions</b> (ou déclencheurs) 
+ sont en fait des tests que le jeu effectué à partir du point d'action spécifié. 
+ Certaines conditions sont propres à certains points d'action, d'autres sont 
+ plus générales. Par exemple, la condition &quot;Si au moins 15 secondes se sont 
+ écoulées depuis le début du jeu&quot; indique au jeu qu'il doit tester s'il s'est 
+ écoulé 15 secondes depuis le début du jeu, cette condition peut être testée 
+ depuis n'importe quel point d'action. Par contre, la condition &quot;Si le joueur 
+ possède 1 mage&quot; indique au jeu de vérifier si un gardien dispose d'un mage et 
+ elle ne peut donc être testée que depuis un gardien.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Les <b>actions</b> sont les opérations que 
+ le jeu doit effectuer si la condition à laquelle elles sont attachées se 
+ réalise. Comme pour les conditions, certaines actions sont propres à certains 
+ points d'action tandis que d'autres sont générales. Par exemple, l'action 
+ &quot;Attribuer la valeur 1 à la variable 0&quot; est une action générale qui peut être 
+ effectuée depuis n'importe quel point d'action. Par contre, l'action &quot;Faire 
+ disparaître la créature&quot; ne peut être effectuée que depuis une créature.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">La liste des conditions et actions regroupe 
+ toutes les conditions et les actions qui y sont attachées. Chaque condition 
+ peut se voir attribuer une ou plusieurs actions et une ou plusieurs autres 
+ conditions qui peuvent se voir elles-mêmes attribuer une ou plusieurs actions. 
+ Les conditions sont symbolisées par le graphisme suivant :
+ <img border="0" src="../Images/Icône%20-%20Déclencheur.BMP" width="16" height="16">. 
+ Les actions sont symbolisées par ce symbole :
+ <img border="0" src="../Images/Icône%20-%20Action.bmp" width="16" height="16">. 
+ Lorsqu'une condition est précédée par le signe &quot;+&quot;, cela signifie que d'autres 
+ conditions ou actions y sont attachées mais que celles-ci ne sont pas 
+ affichées. Pour les afficher, cliquez deux fois rapidement sur le bouton gauche 
+ de la souris. L'éditeur garde en mémoire les données d'affichages des 
+ conditions, ainsi si vous affichez les actions et conditions attachées à une 
+ autre condition et que vous quittez le gestionnaire, la prochaine fois que vous 
+ y retournerez l'affichage demeurera le même.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ &nbsp;</p>
+
+</body>

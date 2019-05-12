@@ -1,0 +1,22 @@
+
+#include "..\Includes\Editor.h"
+#include "..\Includes\Texts.h"
+
+/*** Modes de dessin ****************************************************/
+
+ELEMENT			DrawingTools[]={{PAINTMODE_RECT,	 0x00,900,0,0,0,0,NULL,NULL},
+					{PAINTMODE_RECTFILL,	 0x00,901,0,0,0,0,NULL,NULL},
+					{PAINTMODE_CIRCLE,	 0x00,902,0,0,0,0,NULL,NULL},
+					{PAINTMODE_CIRCLEFILL,	 0x00,903,0,0,0,0,NULL,NULL},
+					{PAINTMODE_LINE,	 0x00,904,0,0,0,0,NULL,NULL},
+					{PAINTMODE_PEN,		 0x00,905,0,0,0,0,NULL,NULL},
+					{PAINTMODE_FILL,	 0x00,906,0,0,0,0,NULL,NULL},
+					{0x00000000,		 0x00,000,0,0,0,0,NULL,NULL}};
+
+ELEMENT			MiscTools[]={	{PAINTMODE_CREATURE,	 0x00,920,0,0,0,0,NULL,NULL},
+					{PAINTMODE_DOOR,	 0x00,921,0,0,0,0,NULL,NULL},
+					{PAINTMODE_TRAP,	 0x00,922,0,0,0,0,NULL,NULL},
+					{PAINTMODE_OBJECT,	 0x00,923,0,0,0,0,NULL,NULL},
+					{PAINTMODE_MAGICALOBJECT,0x00,924,0,0,0,0,NULL,NULL},
+					{0x00000000,		 0x00,000,0,0,0,0,NULL,NULL}};
+

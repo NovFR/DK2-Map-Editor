@@ -1,0 +1,881 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="fr">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Créateur de carte pour Dungeon Keeper II®</title>
+</head>
+
+<body TOPMARGIN="0" LEFTMARGIN="0" RIGHTMARGIN="0" BOTTOMMARGIN="0">
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 0; padding: 0" align="left">
+ &nbsp;</p>
+
+<div style="border-bottom-style: solid">
+  <p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 0; padding: 0" align="left">
+  <b>
+  <font face="MS Sans Serif">LES CONDITIONS (OU DECLENCHEURS)</font></b></div>
+<p style="margin:2 14; line-height: 100%; word-spacing: 0; padding: 0" align="left">
+ &nbsp;</p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Pour créer une nouvelle condition, cliquez 
+ les boutons &quot;Ajouter à la racine&quot;, &quot;Ajouter&quot; ou &quot;Insérer&quot; situés dans la partie 
+ intitulée &quot;Déclencheurs&quot; de la fenêtre du gestionnaire d'évènements. Lorsque vous <b>ajoutez une nouvelle condition à la 
+ racine</b>, la condition se retrouvera à la base de la liste; cette possibilité 
+ est utile lorsque vous désirez créer une nouvelle condition qui ne dépend pas 
+ d'une autre condition. Lorsque vous <b>ajoutez une nouvelle condition</b>, la 
+ nouvelle condition est attachée à la condition sélectionnée; si la condition 
+ contenait d'autres conditions et actions, la nouvelle condition est placée en 
+ fin de liste. Lorsque vous <b>insérez une nouvelle condition</b>, la nouvelle 
+ condition se retrouvera avant la condition sélectionnée.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Pour <b>modifier</b> une condition déjà 
+ existante, cliquez le bouton &quot;Modifier&quot; après avoir préalablement sélectionné 
+ la condition que vous désirez modifier.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Pour <b>supprimer</b> une condition, 
+ sélectionnez la condition à supprimer et cliquez sur &quot;Supprimer&quot;. Toutes les 
+ conditions et actions attachées à celle-ci seront également supprimées. Une 
+ requête vous demandera de confirmer votre choix.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <font face="MS Sans Serif" size="2">Lorsque vous créer une nouvelle condition 
+ ou lorsque vous modifiez une condition déjà existante, une fenêtre s'affiche 
+ vous proposant toute une série de déclencheurs. Les déclencheurs grisés ne 
+ peuvent pas être utilisés depuis le point d'action actuellement en cours 
+ d'édition. Les déclencheurs en rouge ne sont pas gérés par le jeu ou ne 
+ fonctionnent pas correctement.</font></p>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ <b><font face="MS Sans Serif" size="2">Descriptions des différents déclencheurs</font></b></p>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="90%" id="AutoNumber2" height="1269">
+    <tr>
+      <td width="29%" bordercolor="#C0C0C0" height="22" style="border-left-width: 1; border-right-width: 1; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Déclencheur</font></td>
+      <td width="55%" bordercolor="#C0C0C0" height="22" style="border-bottom-style: solid; border-bottom-width: 1">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Fonction &amp; remarques</font></td>
+    </tr>
+    <tr>
+      <td width="84%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 3; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="23" colspan="2">
+      <p dir="rtl" align="right" style="margin: 2 4">Conditions générales</td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="5">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Contenu d'une variable</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="5">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Permet de tester si une variable est 
+      égale à une valeur donnée. Ce déclencheur permet également de tester deux 
+      variables, pour ce faire il suffit de cocher la boîte qui se trouve en 
+      dessous de celle qui est cochée par défaut (et qui représente la 
+      comparaison par rapport à une valeur).</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Temps écoulé dans un compteur</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Permet de tester combien de temps il 
+      s’est écoulé dans un compteur donné. Pour que ce déclencheur fonctionne, 
+      il est nécessaire d’initialiser un compteur à l’aide de l’action <b>
+      Activer un compteur</b>.</font></p>
+      <p style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Le compteur <u>limite de temps</u> est 
+      un peu particulier car il correspond en fait au compteur déclenché lorsque 
+      vous utilisez l'action <b>Activer la limite de temps et l'affichage du 
+      temps restant</b>. Contrairement aux compteurs classiques, qui démarrent à 
+      0 et qui augmentent au fil du temps, la limite de temps démarre à la 
+      valeur que vous lui avez attribué et s'écoule jusqu'à atteindre 0.<br>
+      <i>Notez que les secondes peuvent s’écouler plus ou moins vite suivant la 
+      vitesse du jeu.<br>
+      Lors de ce genre de test, il est plus prudent d’utiliser des inégalités 
+      (inférieur, supérieur, etc.) plutôt que des égalités car, dans le cas 
+      contraire, il est possible que la condition ne se réalise jamais (le jeu 
+      peut passer à côté de certaines valeurs).</i></font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Temps écoulé depuis le début du jeu</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Permet de tester depuis combien de 
+      temps le niveau s’exécute. Le temps est à 0 dès que vous commencez la 
+      partie et s’écoule jusqu’à ce qu’elle cesse.<br>
+      <i>Notez que les secondes peuvent s’écouler plus ou moins vite suivant la 
+      vitesse du jeu.<br>
+      Lors de ce genre de test, il est plus prudent d’utiliser des inégalités 
+      (inférieur, supérieur, etc.) plutôt que des égalités car, dans le cas 
+      contraire, il est possible que la condition ne se réalise jamais (le jeu 
+      peut passer à côté de certaines valeurs).</i></font></td>
+    </tr>
+    <tr>
+      <td width="84%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 4; border-top-style: solid; border-top-width: 3; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="17" colspan="2">
+      <p align="right" style="margin: 2 4">Portes</td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="9">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">La porte a été détruite</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="9">
+      <p style="margin: 2 4">
+      <b><font face="MS Sans Serif" size="1" color="#FF0000">Ce déclencheur 
+      n’est pas pris en compte par le jeu.</font></b></td>
+    </tr>
+    <tr>
+      <td width="84%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 3; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="1" colspan="2">
+      <p align="right" style="margin: 2 4">Objets</td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="1">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">L’objet a été réclamé</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="1">
+      <p style="margin: 2 4">
+      <b><font face="MS Sans Serif" size="1" color="#FF0000">Ce déclencheur 
+      n’est pas pris en compte par le jeu.</font></b></td>
+    </tr>
+    <tr>
+      <td width="84%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 3; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24" colspan="2">
+      <p align="right" style="margin: 2 4">Créatures</td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">La créature apparaît</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise dès que la 
+      créature apparaît sur la carte. Elle est toujours vraie pour les créatures 
+      que vous avez placé sur la carte. Pour les créatures contenues dans une 
+      bande de héros, la condition devient vraie lorsque la bande est libérée.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="12">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">La créature meurt</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="12">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise dès que la 
+      créature est morte.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="12">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">La créature a été frappée</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="12">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise dès que le 
+      joueur donne une claque à cette créature.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">La créature est attaquée</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsque la 
+      créature est attaquée par une créature ennemie. Il n’est pas nécessaire 
+      qu’elle ait été touchée.<br>
+      Ce déclencheur ne fonctionne <b>pas</b> lorsque la créature est attaquée par un 
+      joueur qui manipule une de ses créatures avec le sort possession.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">La créature est emprisonnée</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise dès que la 
+      créature est emprisonnée. Elle se déclenche indifféremment que la créature 
+      soit dans une prison appartenant au joueur ou à l’ennemi.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">La créature est torturée</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsque une 
+      créature se fait torturer. Elle se déclenche indifféremment selon que la 
+      créature est torturée par le joueur ou par un de ses ennemis.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">La créature a été convertie</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsque la 
+      créature change de camp. Cela peut se produire lorsque la créature a été 
+      convertie par un ennemi dans la salle des tortures ou lorsqu’elle se 
+      rebelle.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">La créature n’est plus neutre</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Se déclenche lorsque une créature 
+      neutre est récupérée par un joueur. Cela ne fonctionne évidemment qu’avec 
+      les créatures neutres.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">La créature est affamée</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsque la 
+      créature a faim. La faim d’une créature peut être déclenchée par l’action
+      <b>Rendre la créature affamée</b>.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">La créature est apeurée</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsque la 
+      créature a peur de quelque chose. Il peut s’agir d’un ennemi trop fort, 
+      d’un groupe de créature ou encore d’un piège.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">La créature vol quelque chose</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsque la 
+      créature dérobe quelque chose. Ce déclencheur n’a de sens que lorsqu’il 
+      est affecté à un héro dont le but est de voler l’or de l’ennemi.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="1">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">La créature se tire du donjon</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="1">
+      <p style="margin: 2 4">
+      <b><font face="MS Sans Serif" size="1" color="#FF0000">Ce déclencheur est 
+      ignoré par le jeu.</font></b></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">La créature est assommée</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsque la 
+      créature n’a plus de vie et qu’elle est entrain de mourir. Dans cette 
+      situation, la créature est à terre, sa fleur de santé ne contient plus 
+      qu’un pétale et elle se met à clignoter. Il s’agit en fait de la phase qui 
+      précède le décès définitif de la créature et qui permet aux joueurs 
+      d’emprisonner les combattants ennemis.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="2">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">La créature n’a plus faim</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="2">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsque la 
+      créature a satisfait son appétit.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">La créature a été renvoyée</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsque le 
+      joueur lâche la créature dans un portail pour s’en débarrasser.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">La créature prend quelque chose</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsque la 
+      créature prend quelque chose qui appartient au joueur ou à l’ennemi. Il 
+      peut s’agir d’or, de poulets ou de n’importe quel autre élément.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Vitalité de la créature</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Permet de tester le niveau de vie 
+      d’une créature. Ce niveau de vie peut être altéré par un coup, un sort, un 
+      piège ou par une autre créature.<br>
+      <i>Lors de ce genre de test, il est plus prudent d’utiliser des inégalités 
+      (inférieur, supérieur, etc.) plutôt que des égalités car, dans le cas 
+      contraire, il est possible que la condition ne se réalise jamais (la 
+      vitalité de la créature peut brutalement passer d’un niveau à un autre).</i></font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="6">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Niveau de la créature</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="6">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Permet de déclencher une action selon 
+      le niveau de la créature.</font></td>
+    </tr>
+    <tr>
+      <td width="84%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 3; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24" colspan="2">
+      <p align="right" style="margin: 2 4">Gardiens</td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">La transition est terminée</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <span style="font-family: MS Sans Serif"><font size="1">Cette condition se 
+      réalise lorsque une animation de caméra s’est achevée. Il peut aussi bien 
+      s’agir d’une animation prédéfinie (voir <b>Exécuter un mouvement de caméra 
+      prédéfini</b>) ou d’une rotation (voir <b>Faire tourner la caméra dans une 
+      zone</b>). Dans tous les cas de figure, la condition se déclenche lorsque 
+      le mouvement est terminé ou lorsqu’il a été interrompu par le joueur</font></span></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Nombre de créatures détenues par le 
+      joueur</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Permet de tester le nombre de 
+      créatures détenues par le joueur à un moment donné. Le test peut 
+      s’effectuer sur toutes les créatures ou sur un type particulier de 
+      créatures.</font></p>
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">
+      <span style="color: red; font-style: italic">Les créatures élites ne sont 
+      pas prises en compte même lorsque vous effectuez un test sur tous les 
+      types de créatures.</span></font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Nombre de créatures heureuses détenues 
+      par le joueur</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Permet de savoir combien de créatures 
+      heureuses le joueur détient à un moment particulier. Le test peut 
+      s’effectuer sur toutes les créatures ou sur un type de créatures 
+      particulier.</font></p>
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Lorsque vous sélectionnez tous les 
+      types de créatures, les lutins ne sont pas comptabilisés.</font></p>
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">
+      <span style="color: red; font-style: italic">Les créatures élites ne sont 
+      pas prises en compte même lorsque vous effectuez un test sur tous les 
+      types de créatures.</span></font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Nombre de créatures furieuses détenues 
+      par le joueur</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Permet de savoir combien de créatures 
+      détenues par le joueur sont furieuses. Le test peut s’effectuer sur toutes 
+      les créatures ou sur un type de créatures particulier.</font></p>
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Lorsque vous sélectionnez tous les 
+      types de créatures, les lutins ne sont pas comptabilisés.</font></p>
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">
+      <span style="color: red; font-style: italic">Les créatures élites ne sont 
+      pas prises en compte même lorsque vous effectuez un test sur tous les 
+      types de créatures.</span></font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Nombre de créatures perdues par le 
+      joueur</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Permet de savoir combien de créatures 
+      ont été tuées. Vous pouvez tester si les créatures d’un joueur ont été 
+      massacrées par n’importe quel joueur ou par un joueur particulier.</font></p>
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Les lutins sont inclus dans le total. 
+      Par contre, les créatures mortes en prison, dans la salle des tortures ou 
+      converties ne le sont pas.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Nombre de créatures tuées par le 
+      joueur</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Permet de savoir combien de créatures 
+      un joueur a tué. Ce test peut s’effectuer sur l’ensemble des joueurs ou 
+      sur un joueur particulier.</font></p>
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Les lutins sont inclus dans le total. 
+      Par contre, les créatures mortes en prison, dans la salle des tortures ou 
+      converties ne le sont pas.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Niveau atteint par les créatures du 
+      joueur</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Permet de déterminer combien de 
+      créatures appartenant au joueur ont atteint un niveau particulier. Toutes 
+      les créatures ayant un niveau au moins égal au niveau spécifié seront 
+      comptabilisées. Ce total n’inclue par les lutins.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Nombre de carrés de salles détenus par 
+      le joueur</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Permet de savoir combien de carrés 
+      appartenant au joueur contiennent des salles ou un type de salle 
+      particulier.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Nombre de salles détenues par le 
+      joueur</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Permet de connaître le nombre de 
+      salles à disposition du joueur. Vous pouvez effectuer ce test sur toutes 
+      les salles ou sur un type particulier de salle. Tous les carrés qui se 
+      touchent et qui contiennent le même type de salle sont considérés comme 
+      une salle.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Nombre de carrés par salle</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Permet de savoir si le joueur dispose 
+      d’une salle ayant les dimensions spécifiées. Vous pouvez effectuer ce test 
+      sur n’importe quel type de salle auquel cas l’évènement se déclenchera dès 
+      qu’une salle a atteint la valeur désirée ou sur un type de salle 
+      particulier.</font></p>
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Cette condition est différente du <b>
+      nombre de carrés de salles détenus par le joueur</b> car dans le cas du 
+      nombre de carré de salle, il n’est pas nécessaire que les carrés forment 
+      une salle pour que la condition soit réalisée.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Nombre d'objets dans les salles</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">
+      <span style="color: red; font-weight: 700">Ce déclencheur est ignoré par 
+      le jeu.</span></font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Nombre de portes détenues par le 
+      joueur</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Permet de savoir combien de portes le 
+      joueur a construit ou est entrain de construire. Ce test peut s’effectuer 
+      sur tous les types de portes ou sur un type de porte particulier. D’autre 
+      part, il peut comptabiliser les esquisses (les portes en attente de 
+      construction), les constructions (les portes déjà placées) ou les deux.</font></p>
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">
+      <span style="color: red; font-style: italic">En cas d’utilisation des 
+      esquisses et des constructions, le jeu ne différencie pas les types de 
+      portes.</span></font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Nombre de pièges détenus par le joueur</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Permet de savoir combien de pièges le 
+      joueur a construit ou est entrain de construire. Ce test peut s’effectuer 
+      sur tous les types de pièges ou sur un piège en particulier. De plus, il 
+      est possible de prendre en compte les esquisses (les pièges en attente de 
+      construction), les constructions (les pièges déjà placés) ou les deux.</font></p>
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">
+      <span style="color: red; font-style: italic">En cas d’utilisation des 
+      esquisses et des constructions, le jeu ne différencie pas les types de 
+      pièges.</span></font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Nombre de portes et de pièges détruits 
+      par le joueur</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">
+      <span style="color: red; font-weight: 700">Ce déclencheur ne fonctionne 
+      pas correctement (que ce soit dans le jeu ou dans l’éditeur).</span></font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Sorts découverts par le joueur</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Ce déclencheur permet de connaître le 
+      moment où un joueur a découvert un sort donné. Cette découverte peut être 
+      le fruit d’une recherche dans la bibliothèque occulte ou de la capture 
+      d’une bibliothèque occulte ennemie contenant le sort testé. Il peut 
+      également s’agir de la découverte d’un livre contenant ce sort.</font></p>
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Cette condition ne se réalise <b>pas</b> 
+      lorsque le joueur améliore un sort.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Montant d'or collecté par le joueur</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Ce déclencheur permet de connaître le 
+      montant d’or que le joueur a collecté depuis le début du jeu. Ce montant 
+      est différent du stock d’or a disposition du joueur (voir <b>Montant d’or 
+      détenu par le joueur</b> pour cela).</font></p>
+      <p class="MsoNormal" style="margin:2 4; "><i>
+      <font face="MS Sans Serif" size="1">Lors de ce genre de test, il est plus 
+      prudent d’utiliser des inégalités (inférieur, supérieur, etc.) plutôt que 
+      des égalités car, dans le cas contraire, il est possible que la condition 
+      ne se réalise jamais (sauf cas particulier, il est difficile de prévoir de 
+      façon exacte le montant d’or collecté par le joueur).</font></i></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Montant d'or détenu par le joueur</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Il s’agit de la quantité d’or contenue 
+      dans les salles du trésor du joueur. Ce déclencheur permet de tester cela.</font></p>
+      <p class="MsoNormal" style="margin:2 4; "><i>
+      <font face="MS Sans Serif" size="1">Lors de ce genre de test, il est plus 
+      prudent d’utiliser des inégalités (inférieur, supérieur, etc.) plutôt que 
+      des égalités car, dans le cas contraire, il est possible que la condition 
+      ne se réalise jamais (sauf cas particulier, il est difficile de prévoir le 
+      montant exact d’or à disposition du joueur).</font></i></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Quantité de mana à disposition du 
+      joueur</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Ce déclencheur permet de connaître la 
+      quantité de mana dont le joueur dispose.</font></p>
+      <p class="MsoNormal" style="margin:2 4; "><i>
+      <font face="MS Sans Serif" size="1">Lors de ce genre de test, il est plus 
+      prudent d’utiliser des inégalités (inférieur, supérieur, etc.) plutôt que 
+      des égalités car, dans le cas contraire, il est possible que la condition 
+      ne se réalise jamais (l’augmentation du mana varie au cours du jeu et les 
+      paliers ne sont pas toujours les mêmes).</font></i></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Le joueur saisit une créature</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsque le 
+      joueur a pris une créature dans sa main.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Le joueur relâche une créature</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">
+      <span style="color: red; font-weight: 700">Ce déclencheur ne semble pas 
+      fonctionner correctement.</span></font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Le joueur donne une claque</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsque le 
+      joueur donne une claque. N’oubliez pas cependant que le joueur peut aussi 
+      bien donner une claque à une créature qu’à un piège rocher.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Le joueur vire une créature</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsque le 
+      joueur lâche une de ses créatures dans un portail pour la virer.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Nombre de claques données par le 
+      joueur</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Permet de déterminer le nombre de 
+      claque que le joueur a donné à ses créatures ou à ses pièges rocher.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Le joueur clique sur un bouton de 
+      l'interface</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Permet de savoir lorsque le joueur 
+      appuie sur un bouton de l’interface du jeu. Les trois premiers boutons ne 
+      sont accessibles que lorsqu’il s’agit de P’tits donjons.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Une brèche a été ouverte dans le 
+      donjon du joueur</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsqu’un 
+      ennemi s’est introduit dans le donjon du joueur. Elle se déclenche que si 
+      les lutins ou les nains piocheurs ennemis ont creusé un mur appartenant au 
+      joueur.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Le joueur a ouvert une brèche dans le 
+      donjon ennemi</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsque le 
+      joueur s’est introduit dans un donjon ennemi. Elle se déclenche uniquement 
+      si les lutins ou les nains piocheurs du joueur ont creusé un mur 
+      appartenant à l’ennemi.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Groupe formé par le joueur avec le 
+      sort possession</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsque le 
+      joueur a réuni un certain nombre de créatures lors de l’utilisation de 
+      possession.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">C'est le jour de paie</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsque 
+      c’est le jour de paie.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Coeur du donjon détruit</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin:2 4; ">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsque le 
+      coeur du donjon du joueur a été détruit par n’importe quel joueur ou par 
+      un joueur particulier.</font></td>
+    </tr>
+    <tr>
+      <td width="84%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 3; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24" colspan="2">
+      <p align="right" style="margin: 2 4">Zones</td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4"><font face="MS Sans Serif" size="2">Une créature 
+      possédé est dans la zone</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4"><font face="MS Sans Serif" size="1">Cette condition 
+      se déclenche lorsqu'un joueur utilise le sort possession dans la zone.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4"><font face="MS Sans Serif" size="2">Des créatures 
+      se trouvent dans la zone</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin: 2 4">
+      <font size="1" face="MS Sans Serif">Cette condition se réalise lorsqu’un 
+      certain nombre de créatures d’un type particulier ou de n’importe quel 
+      type appartenant à un joueur donné ou à n’importe quel joueur se trouve 
+      dans la zone.</font></p>
+      <p class="MsoNormal" style="margin: 2 4"><i>
+      <font size="1" face="MS Sans Serif" color="#FF0000">Les créatures élites 
+      ne sont comptabilisées que lorsque vous ne spécifiez pas de type de 
+      créature particulier.</font></i></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4"><font face="MS Sans Serif" size="2">Un joueur a 
+      réclamé la zone</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin: 2 4">
+      <font size="1" face="MS Sans Serif">Ce déclencheur permet de connaître le 
+      nombre de carrés que le joueur contrôle dans cette zone. Un joueur 
+      contrôle un carré lorsqu’il l’a réclamé.</font></p>
+      <p class="MsoNormal" style="margin: 2 4">
+      <font size="1" face="MS Sans Serif">Ce déclencheur est très utile pour la 
+      destruction des portails de héros (voir l’action <b>Détruire un portail de 
+      héros</b>). Bien que ce ne soit pas une obligation, la pratique veut qu’un 
+      portail de héros soit détruit lorsque tous les carrés qui l’entourent sont 
+      réclamés par l’ennemi.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4"><font face="MS Sans Serif" size="2">Un joueur a 
+      réclamé toute la zone</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4">
+      <span style="font-size: 10.0pt; font-family: Times New Roman">Cette 
+      condition se réalise lorsque tous les carrés inclus dans la zone sont 
+      réclamés par un joueur.</span></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4"><font face="MS Sans Serif" size="2">Contenu de la 
+      zone</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin: 2 4">
+      <font size="1" face="MS Sans Serif">Cette condition se réalise lorsque la 
+      zone contient un certain nombre de carrés qui contiennent eux-mêmes un 
+      certain type de terrain.</font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4"><font face="MS Sans Serif" size="2">La zone a été 
+      sélectionnée</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsque le 
+      joueur sélectionne un certain nombre de carrés dans la zone. Seuls les 
+      carrés d’or, de gems, de roche tendre et les murs ennemis peuvent être 
+      sélectionnés.</font></p>
+      <p style="margin: 2 4"><span style="font-family: MS Sans Serif">
+      <font size="1">La condition se réalise dès que le joueur appuie sur le 
+      bouton gauche (contrairement au déclencheur <b>Le joueur sélectionne toute 
+      la zone</b>) ce qui fait qu’elle se réalise même si le joueur change 
+      d’avis et abandonne la sélection.</font></span></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p style="margin: 2 4"><font face="MS Sans Serif" size="2">Le joueur 
+      sélectionne toute la zone</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Cette condition se réalise lorsque le 
+      joueur sélectionne tous les carrés se trouvant dans la zone. Seuls les 
+      carrés d’or, de gems, de roche tendre et les murs ennemis peuvent être 
+      sélectionnés.</font></p>
+      <p class="MsoNormal" style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">La condition se réalise lorsque le 
+      joueur relâche le bouton gauche ce qui fait qu’elle ne se réalise pas si 
+      le joueur abandonne la sélection.</font></td>
+    </tr>
+    <tr>
+      <td width="84%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 3; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24" colspan="2">
+      <p align="right" style="margin: 2 4">Bandes de héros</td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Création d’une bande de héros</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">
+      <span style="color: red; font-weight: 700">Ce déclencheur est ignoré par 
+      le jeu.</span></font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Nombre de créatures assommées dans 
+      une bande de héros</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Ce déclencheur permet de savoir 
+      combien de créatures ont été assommées dans la bande. Il fonctionne de 
+      manière similaire au déclencheur <b>La créature est assommée</b>.</font></p>
+      <p class="MsoNormal" style="margin: 2 4"><i>
+      <font face="MS Sans Serif" size="1">Si jamais une même bande de héro est 
+      présente à deux ou plusieurs exemplaires sur la carte, le déclencheur 
+      s’applique à la dernière bande libérée.</font></i></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Nombre de créatures prisonnières 
+      dans une bande de héros</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">
+      <span style="color: red; font-weight: 700">Ce déclencheur est ignoré par 
+      le jeu.</span></font></td>
+    </tr>
+    <tr>
+      <td width="29%" style="border-left-style: solid; border-left-width: 3; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; " bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin: 2 4">
+      <font face="MS Sans Serif" size="2">Nombre de morts dans une bande de 
+      héros</font></td>
+      <td width="55%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 3; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; " bordercolor="#C0C0C0" height="24">
+      <p class="MsoNormal" style="margin: 2 4">
+      <font face="MS Sans Serif" size="1">Ce déclencheur permet de savoir 
+      combien de créatures ont été tuées dans la bande. Il fonctionne de manière 
+      similaire au déclencheur <b>La créature meurt</b>.</font></p>
+      <p class="MsoNormal" style="margin: 2 4"><i>
+      <font face="MS Sans Serif" size="1">Si jamais une même bande de héro est 
+      présente à deux ou plusieurs exemplaires sur la carte, le déclencheur 
+      s’applique à la dernière bande libérée.</font></i></td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+<p style="line-height: 100%; word-spacing: 0; margin-left: 14; margin-right: 14; margin-top: 2; margin-bottom: 20; padding: 0" align="left">
+ &nbsp;</p>
+
+</body>

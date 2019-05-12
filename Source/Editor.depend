@@ -1,0 +1,125 @@
+# depslib dependency file v1.0
+1378205978 source:f:\programmation\sources\jeux\editor\resources\editor.rc
+	<windows.h>
+	"..\Includes\Version.h"
+	"..\Includes\MenuIdentifiers.h"
+	"..\Includes\Strings.h"
+
+1043260120 f:\programmation\sources\jeux\editor\includes\version.h
+
+1022759872 f:\programmation\sources\jeux\editor\includes\menuidentifiers.h
+
+1378205908 f:\programmation\sources\jeux\editor\includes\strings.h
+
+1378206253 source:f:\programmation\sources\jeux\editor\sources\compiler\compiler_compile.c
+	"..\..\Includes\Editor.h"
+	"..\..\Includes\Prototypes.h"
+	"..\..\Includes\Structures.h"
+	"..\..\Includes\Texts.h"
+
+1378206064 f:\programmation\sources\jeux\editor\includes\editor.h
+	<windows.h>
+	<commctrl.h>
+	<shlobj.h>
+	<process.h>
+	<time.h>
+	<math.h>
+	"Version.h"
+	"MenuIdentifiers.h"
+	"Global.h"
+	"Config.h"
+	"Paint.h"
+	"Thumbnails.h"
+	"Map.h"
+	"Things.h"
+	"Stats.h"
+	"Manager.h"
+	"Triggers.h"
+	"RectEx.h"
+	"Bands.h"
+	"Find.h"
+	"GlobalVariables.h"
+	"Game.h"
+	"Files.h"
+	"Disk.h"
+	"Menus.h"
+	"Compiler.h"
+	"LastError.h"
+	"Report.h"
+	"Requests.h"
+	"Undo.h"
+	"Libraries.h"
+	"CameraPaths.h"
+	"Compatibility.h"
+	"Debug.h"
+
+1027971572 f:\programmation\sources\jeux\editor\includes\global.h
+
+1064429210 f:\programmation\sources\jeux\editor\includes\config.h
+
+1039707784 f:\programmation\sources\jeux\editor\includes\paint.h
+
+1039707850 f:\programmation\sources\jeux\editor\includes\thumbnails.h
+
+1039707944 f:\programmation\sources\jeux\editor\includes\map.h
+
+1039708872 f:\programmation\sources\jeux\editor\includes\things.h
+
+1039708948 f:\programmation\sources\jeux\editor\includes\stats.h
+
+1039709038 f:\programmation\sources\jeux\editor\includes\manager.h
+
+1039709194 f:\programmation\sources\jeux\editor\includes\triggers.h
+
+1039709298 f:\programmation\sources\jeux\editor\includes\rectex.h
+
+1039709312 f:\programmation\sources\jeux\editor\includes\bands.h
+
+1019302180 f:\programmation\sources\jeux\editor\includes\find.h
+
+1039709398 f:\programmation\sources\jeux\editor\includes\globalvariables.h
+
+1039709634 f:\programmation\sources\jeux\editor\includes\game.h
+
+1039709700 f:\programmation\sources\jeux\editor\includes\files.h
+
+1039709716 f:\programmation\sources\jeux\editor\includes\disk.h
+
+1039709782 f:\programmation\sources\jeux\editor\includes\menus.h
+
+1039709816 f:\programmation\sources\jeux\editor\includes\compiler.h
+
+1039709872 f:\programmation\sources\jeux\editor\includes\lasterror.h
+
+1039709908 f:\programmation\sources\jeux\editor\includes\report.h
+
+1039709974 f:\programmation\sources\jeux\editor\includes\requests.h
+
+1039710074 f:\programmation\sources\jeux\editor\includes\undo.h
+
+1039710104 f:\programmation\sources\jeux\editor\includes\libraries.h
+
+1039712152 f:\programmation\sources\jeux\editor\includes\camerapaths.h
+
+1018615000 f:\programmation\sources\jeux\editor\includes\compatibility.h
+
+1039710290 f:\programmation\sources\jeux\editor\includes\debug.h
+
+1378206243 f:\programmation\sources\jeux\editor\includes\prototypes.h
+
+1039714264 f:\programmation\sources\jeux\editor\includes\structures.h
+
+1039715390 f:\programmation\sources\jeux\editor\includes\texts.h
+
+1378206264 source:f:\programmation\sources\jeux\editor\sources\compiler\compiler_conversions.c
+	"..\..\Includes\Editor.h"
+	"..\..\Includes\Prototypes.h"
+	"..\..\Includes\Structures.h"
+	"..\..\Includes\Texts.h"
+
+1378206272 source:f:\programmation\sources\jeux\editor\sources\compiler\compiler_errors.c
+	"..\..\Includes\Editor.h"
+	"..\..\Includes\Prototypes.h"
+	"..\..\Includes\Structures.h"
+	"..\..\Includes\Texts.h"
+

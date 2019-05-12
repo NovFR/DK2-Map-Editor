@@ -1,0 +1,105 @@
+
+/*** Identificateurs du gestionnaire ************************************/
+
+#define THINGMNGR_CREATURES	0
+#define THINGMNGR_DOORSNTRAPS	1
+#define THINGMNGR_OBJECTS	2
+
+#define MNGR_SORTBYPOSITION	0
+#define MNGR_SORTBYNAME		1
+#define MNGR_SORTBYOWNER	2
+#define MNGR_SORTBYID		3
+#define MNGR_SORTBYTYPE		4
+
+/*** Identificateurs & drapeaux des options *****************************/
+
+#define MNGR_PREVIEWMODIFY	0
+#define MNGR_PREVIEWADD		1
+
+#define MNGR_COORDSAME		0
+#define MNGR_COORDRELATIVE	1
+
+#define MNGR_REMPLACEALL	0
+#define MNGR_REMPLACESAME	1
+#define MNGR_REMPLACEFAMILY	2
+#define MNGR_REMPLACENONE	3
+#define MNGR_REMPLACEASK	4
+
+#define MNGR_MODIFYALL		0
+#define MNGR_MODIFYMASK		1
+
+#define MNGR_ADDONE		0
+#define MNGR_ADDRECT		1
+#define MNGR_ADDRANDOMRECT	2
+
+#define MNGR_FLAGASKOPTIONS	0x00000001
+#define MNGR_FLAGPREVIEW	0x00000002
+#define MNGR_FLAGIGNORETERRAIN	0x00000004
+#define MNGR_FLAGIGNOREFATALS	0x00000008
+#define MNGR_FLAGIGNOREENEMIES	0x00000010
+#define MNGR_FLAGIGNOREINCOMP	0x00000020
+#define MNGR_FLAGIGNOREASK	0x00000040
+
+#define MNGR_MODIFYCOORDS	0x00000100
+#define MNGR_MODIFYTYPE		0x00000200
+#define MNGR_MODIFYOWNER	0x00000400
+#define MNGR_MODIFYLEVEL	0x00000800
+#define MNGR_MODIFYGOLD		0x00001000
+#define MNGR_MODIFYHEALTH	0x00002000
+#define MNGR_MODIFYCROPTS	0x00004000
+#define MNGR_MODIFYHEROESOPTS	0x00008000
+#define MNGR_MODIFYOBJECTIVE	0x00010000
+#define MNGR_MODIFYDATA		0x00100000
+
+#define MNGR_WARNOUTOFMAP	0x00000001
+#define MNGR_WARNBADTERRAIN	0x00000002
+#define MNGR_WARNLIMIT		0x00000004
+#define MNGR_WARNENEMY		0x00000008
+#define MNGR_WARNFATAL		0x00000010
+#define MNGR_WARNREMPLACE	0x00000020
+#define MNGR_WARNREMSAME	0x00000040
+#define MNGR_WARNREMSAMEFAMILY	0x00000080
+#define MNGR_WARNINCOMPATIBLE	0x00000100
+
+/*** Structures *********************************************************/
+
+typedef struct MAPTHINGMNGRTMP {
+	NODE		 node;
+	MAPTHING	*oldthing;
+	MAPTHING	*srcthing;
+	MAPTHING	 newthing;
+	DWORD		 warnflags;
+	BOOL		 verified;
+	BOOL		 modify;
+	BOOL		 remove;
+	BOOL		 locked;
+	char		 text[128];
+	char		 warntext[128];
+} MAPTHINGMNGRTMP;
+
+typedef struct MAPTHINGMANAGER {
+	BOOL		 onmap;
+	UINT		 type;
+	HIMAGELIST	 images;
+	HIMAGELIST	 icons;
+	HICON		 icon;
+	HWND		 list;
+	LONG		 undocnt;
+	NODE		*worklist;
+	HWND		 beforelist;
+	HWND		 afterlist;
+	HWND		 pbslist;
+	UINT		 mode;
+	char		 temp[1024];
+} MAPTHINGMANAGER;
+
+typedef struct MNGRMODPARAMSCTX {
+	UINT		 type;
+	MNGRMODPARAMS	 params;
+} MNGRMODPARAMSCTX;
+
+typedef struct MNGRADDPARAMSCTX {
+	UINT		 type;
+	MNGRADDPARAMS	 params;
+} MNGRADDPARAMSCTX;
+

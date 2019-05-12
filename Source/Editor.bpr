@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Test\Editor.exe"/>
+    <OBJFILES value="~Temp\Editor.obj ~Temp\Main_Startup.obj ~Temp\Main_Keyboard.obj 
+      ~Temp\Main_Debug.obj ~Temp\Windows_MainWindowProc.obj 
+      ~Temp\Windows_StatusWindow.obj ~Temp\Windows_Toolbar.obj 
+      ~Temp\Windows_Minimap.obj ~Temp\Windows_Info.obj ~Temp\Windows_Fullmap.obj 
+      ~Temp\Windows_Thumbnail.obj ~Temp\Windows_Splash.obj 
+      ~Temp\Windows_Functions.obj ~Temp\Windows_ZoomButton.obj 
+      ~Temp\Windows_Compiler.obj ~Temp\Windows_Disk.obj ~Temp\Windows_Safe.obj 
+      ~Temp\Map_Areas.obj ~Temp\Map_Cameras.obj ~Temp\Map_Choice.obj 
+      ~Temp\Map_Display.obj ~Temp\Map_Find.obj ~Temp\Map_Functions.obj 
+      ~Temp\Map_Mouse.obj ~Temp\Map_Props.obj ~Temp\Map_Select.obj 
+      ~Temp\Map_Setup.obj ~Temp\Map_Sounds.obj ~Temp\Map_Stats.obj 
+      ~Temp\Map_Undo.obj ~Temp\Things_Display.obj ~Temp\Things_Selection.obj 
+      ~Temp\Things_Manager.obj ~Temp\Things_Functions.obj ~Temp\Things_Heros.obj 
+      ~Temp\Things_RectEx.obj ~Temp\Things_Paths.obj ~Temp\Triggers_Select.obj 
+      ~Temp\Triggers_ActionPoints.obj ~Temp\Triggers_Triggers.obj 
+      ~Temp\Triggers_Actions.obj ~Temp\Triggers_Variables.obj 
+      ~Temp\Triggers_Functions.obj ~Temp\Triggers_Display.obj 
+      ~Temp\Triggers_Texts.obj ~Temp\Compiler_Info.obj 
+      ~Temp\Compiler_Compile.obj ~Temp\Compiler_Generate.obj 
+      ~Temp\Compiler_Conversions.obj ~Temp\Compiler_Report.obj 
+      ~Temp\Compiler_Errors.obj ~Temp\Files_Editor.obj ~Temp\Files_Game.obj 
+      ~Temp\Files_Text.obj ~Temp\Files_Areas.obj ~Temp\Files_Functions.obj 
+      ~Temp\Files_Load.obj ~Temp\Files_Save.obj ~Temp\Misc_Display.obj 
+      ~Temp\Misc_Edges.obj ~Temp\Misc_Font.obj ~Temp\Misc_Images.obj 
+      ~Temp\Misc_Lists.obj ~Temp\Misc_Maths.obj ~Temp\Misc_Menus.obj 
+      ~Temp\Misc_Requests.obj ~Temp\Properties_Editor_Config.obj 
+      ~Temp\Properties_Editor_Registry.obj ~Temp\Properties_Global_Creatures.obj 
+      ~Temp\Properties_Global_Default.obj ~Temp\Properties_Global_Elements.obj 
+      ~Temp\Properties_Global_Functions.obj ~Temp\Properties_Map_Alliances.obj 
+      ~Temp\Properties_Map_Computer.obj ~Temp\Properties_Map_Creatures.obj 
+      ~Temp\Properties_Map_Global.obj ~Temp\Properties_Map_Options.obj 
+      ~Temp\Properties_Map_Players.obj ~Temp\Properties_Map_Texts.obj 
+      ~Temp\Properties_Map_Variables.obj ~Temp\Properties_Map_Voices.obj 
+      ~Temp\Thumbnail_Functions.obj ~Temp\Libraries_Calls.obj 
+      ~Temp\Help_Help.obj ~Temp\Datas_ASCII.obj ~Temp\Datas_CameraPaths.obj 
+      ~Temp\Datas_Effects.obj ~Temp\Datas_Game.obj ~Temp\Datas_GlobalDefault.obj 
+      ~Temp\Datas_GlobalVariables.obj ~Temp\Datas_LastError.obj 
+      ~Temp\Datas_Manager.obj ~Temp\Datas_Map.obj ~Temp\Datas_Menus.obj 
+      ~Temp\Datas_Modes.obj ~Temp\Datas_Things.obj ~Temp\Datas_Thumbnails.obj 
+      ~Temp\Datas_Triggers.obj ~Temp\Texts_ASCII.obj ~Temp\Texts_Bands.obj 
+      ~Temp\Texts_CameraPaths.obj ~Temp\Texts_Compiler.obj 
+      ~Temp\Texts_Config.obj ~Temp\Texts_Debug.obj ~Temp\Texts_Disk.obj 
+      ~Temp\Texts_Effects.obj ~Temp\Texts_Files.obj ~Temp\Texts_Global.obj 
+      ~Temp\Texts_GlobalVariables.obj ~Temp\Texts_Info.obj 
+      ~Temp\Texts_LastError.obj ~Temp\Texts_Libraries.obj 
+      ~Temp\Texts_Manager.obj ~Temp\Texts_Map.obj ~Temp\Texts_Menus.obj 
+      ~Temp\Texts_Report.obj ~Temp\Texts_Requests.obj ~Temp\Texts_Stats.obj 
+      ~Temp\Texts_Things.obj ~Temp\Texts_Thumbnails.obj ~Temp\Texts_Triggers.obj 
+      ~Temp\Texts_Undo.obj"/>
+    <RESFILES value="~Temp\Editor.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value=""/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi cds.bpi dsnap.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi bcb2kaxserver.bpi"/>
+    <PATHCPP value=".;Sources;Sources\Main;Sources\Main;Sources\Main;Sources\Windows;Sources\Windows;Sources\Windows;Sources\Windows;Sources\Windows;Sources\Windows;Sources\Windows;Sources\Windows;Sources\Windows;Sources\Windows;Sources\Windows;Sources\Windows;Sources\Windows;Sources\Map;Sources\Map;Sources\Map;Sources\Map;Sources\Map;Sources\Map;Sources\Map;Sources\Map;Sources\Map;Sources\Map;Sources\Map;Sources\Map;Sources\Map;Sources\Things;Sources\Things;Sources\Things;Sources\Things;Sources\Things;Sources\Things;Sources\Things;Sources\Triggers;Sources\Triggers;Sources\Triggers;Sources\Triggers;Sources\Triggers;Sources\Triggers;Sources\Triggers;Sources\Triggers;Sources\Compiler;Sources\Compiler;Sources\Compiler;Sources\Compiler;Sources\Compiler;Sources\Compiler;Sources\Files;Sources\Files;Sources\Files;Sources\Files;Sources\Files;Sources\Files;Sources\Files;Sources\Misc;Sources\Misc;Sources\Misc;Sources\Misc;Sources\Misc;Sources\Misc;Sources\Misc;Sources\Misc;Sources\Properties\Editor;Sources\Properties\Editor;Sources\Properties\GlobalVariables;Sources\Properties\GlobalVariables;Sources\Properties\GlobalVariables;Sources\Properties\GlobalVariables;Sources\Properties\Map;Sources\Properties\Map;Sources\Properties\Map;Sources\Properties\Map;Sources\Properties\Map;Sources\Properties\Map;Sources\Properties\Map;Sources\Properties\Map;Sources\Properties\Map;Sources\Thumbnail;Sources\Libraries;Sources\Help;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas;Sources\Datas"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;Resources;Resources"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT;_NO_VCL"/>
+    <MAINSOURCE value="Editor.bpf"/>
+    <INCLUDEPATH value="Sources\Texts;Sources\Datas;..\..\BCB6\Projects;Sources\Windows;Sources\Triggers;Sources\Thumbnail;Sources\Things;Sources\Properties\Map;Sources\Properties\GlobalVariables;Sources\Properties\Editor;Sources\Misc;Sources\Map;Sources\Main;Sources\Libraries;Sources\Help;Sources\Files;Sources\Compiler;Resources;Sources;..;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="Sources\Texts;Sources\Datas;..\..\BCB6\Projects;Sources\Windows;Sources\Triggers;Sources\Thumbnail;Sources\Things;Sources\Properties\Map;Sources\Properties\GlobalVariables;Sources\Properties\Editor;Sources\Misc;Sources\Map;Sources\Main;Sources\Libraries;Sources\Help;Sources\Files;Sources\Compiler;Resources;Sources;..;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-ngu -w-csu"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-ISources\Texts -ISources\Datas -I..\..\BCB6\Projects -ISources\Windows 
+      -ISources\Triggers -ISources\Thumbnail -ISources\Things 
+      -ISources\Properties\Map -ISources\Properties\GlobalVariables 
+      -ISources\Properties\Editor -ISources\Misc -ISources\Map -ISources\Main 
+      -ISources\Libraries -ISources\Help -ISources\Files -ISources\Compiler 
+      -IResources -ISources -I.. -I$(BCB)\include -I$(BCB)\include\vcl 
+      -src_suffix cpp -boa"/>
+    <CFLAG1 value="-Og -Ov -Oi -OS -H=~Temp\Headers.vcm -Hc -Vx -Ve -X- -pr -a8 -6 -b -k- -vi 
+      -tW -tWM -c"/>
+    <PFLAGS value="-N2~Temp -N0~Temp -$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-lTest -I~Temp -D&quot;&quot; -aa -Tpe -x"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cw32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Sources\Editor.c" FORMNAME="" UNITNAME="Editor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Main\Main_Startup.c" FORMNAME="" UNITNAME="Main_Startup.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Main\Main_Keyboard.c" FORMNAME="" UNITNAME="Main_Keyboard.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Main\Main_Debug.c" FORMNAME="" UNITNAME="Main_Debug.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Windows\Windows_MainWindowProc.c" FORMNAME="" UNITNAME="Windows_MainWindowProc.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Windows\Windows_StatusWindow.c" FORMNAME="" UNITNAME="Windows_StatusWindow.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Windows\Windows_Toolbar.c" FORMNAME="" UNITNAME="Windows_Toolbar.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Windows\Windows_Minimap.c" FORMNAME="" UNITNAME="Windows_Minimap.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Windows\Windows_Info.c" FORMNAME="" UNITNAME="Windows_Info.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Windows\Windows_Fullmap.c" FORMNAME="" UNITNAME="Windows_Fullmap.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Windows\Windows_Thumbnail.c" FORMNAME="" UNITNAME="Windows_Thumbnail.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Windows\Windows_Splash.c" FORMNAME="" UNITNAME="Windows_Splash.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Windows\Windows_Functions.c" FORMNAME="" UNITNAME="Windows_Functions.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Windows\Windows_ZoomButton.c" FORMNAME="" UNITNAME="Windows_ZoomButton.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Windows\Windows_Compiler.c" FORMNAME="" UNITNAME="Windows_Compiler.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Windows\Windows_Disk.c" FORMNAME="" UNITNAME="Windows_Disk.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Windows\Windows_Safe.c" FORMNAME="" UNITNAME="Windows_Safe.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Map\Map_Areas.c" FORMNAME="" UNITNAME="Map_Areas.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Map\Map_Cameras.c" FORMNAME="" UNITNAME="Map_Cameras.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Map\Map_Choice.c" FORMNAME="" UNITNAME="Map_Choice.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Map\Map_Display.c" FORMNAME="" UNITNAME="Map_Display.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Map\Map_Find.c" FORMNAME="" UNITNAME="Map_Find.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Map\Map_Functions.c" FORMNAME="" UNITNAME="Map_Functions.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Map\Map_Mouse.c" FORMNAME="" UNITNAME="Map_Mouse.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Map\Map_Props.c" FORMNAME="" UNITNAME="Map_Props.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Map\Map_Select.c" FORMNAME="" UNITNAME="Map_Select.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Map\Map_Setup.c" FORMNAME="" UNITNAME="Map_Setup.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Map\Map_Sounds.c" FORMNAME="" UNITNAME="Map_Sounds.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Map\Map_Stats.c" FORMNAME="" UNITNAME="Map_Stats.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Map\Map_Undo.c" FORMNAME="" UNITNAME="Map_Undo.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Things\Things_Display.c" FORMNAME="" UNITNAME="Things_Display.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Things\Things_Selection.c" FORMNAME="" UNITNAME="Things_Selection.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Things\Things_Manager.c" FORMNAME="" UNITNAME="Things_Manager.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Things\Things_Functions.c" FORMNAME="" UNITNAME="Things_Functions.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Things\Things_Heros.c" FORMNAME="" UNITNAME="Things_Heros.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Things\Things_RectEx.c" FORMNAME="" UNITNAME="Things_RectEx.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Things\Things_Paths.c" FORMNAME="" UNITNAME="Things_Paths.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Triggers\Triggers_Select.c" FORMNAME="" UNITNAME="Triggers_Select.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Triggers\Triggers_ActionPoints.c" FORMNAME="" UNITNAME="Triggers_ActionPoints.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Triggers\Triggers_Triggers.c" FORMNAME="" UNITNAME="Triggers_Triggers.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Triggers\Triggers_Actions.c" FORMNAME="" UNITNAME="Triggers_Actions.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Triggers\Triggers_Variables.c" FORMNAME="" UNITNAME="Triggers_Variables.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Triggers\Triggers_Functions.c" FORMNAME="" UNITNAME="Triggers_Functions.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Triggers\Triggers_Display.c" FORMNAME="" UNITNAME="Triggers_Display.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Triggers\Triggers_Texts.c" FORMNAME="" UNITNAME="Triggers_Texts.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Compiler\Compiler_Info.c" FORMNAME="" UNITNAME="Compiler_Info.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Compiler\Compiler_Compile.c" FORMNAME="" UNITNAME="Compiler_Compile.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Compiler\Compiler_Generate.c" FORMNAME="" UNITNAME="Compiler_Generate.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Compiler\Compiler_Conversions.c" FORMNAME="" UNITNAME="Compiler_Conversions.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Compiler\Compiler_Report.c" FORMNAME="" UNITNAME="Compiler_Report.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Compiler\Compiler_Errors.c" FORMNAME="" UNITNAME="Compiler_Errors.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Files\Files_Editor.c" FORMNAME="" UNITNAME="Files_Editor.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Files\Files_Game.c" FORMNAME="" UNITNAME="Files_Game.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Files\Files_Text.c" FORMNAME="" UNITNAME="Files_Text.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Files\Files_Areas.c" FORMNAME="" UNITNAME="Files_Areas.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Files\Files_Functions.c" FORMNAME="" UNITNAME="Files_Functions.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Files\Files_Load.c" FORMNAME="" UNITNAME="Files_Load.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Files\Files_Save.c" FORMNAME="" UNITNAME="Files_Save.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Misc\Misc_Display.c" FORMNAME="" UNITNAME="Misc_Display.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Misc\Misc_Edges.c" FORMNAME="" UNITNAME="Misc_Edges.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Misc\Misc_Font.c" FORMNAME="" UNITNAME="Misc_Font.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Misc\Misc_Images.c" FORMNAME="" UNITNAME="Misc_Images.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Misc\Misc_Lists.c" FORMNAME="" UNITNAME="Misc_Lists.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Misc\Misc_Maths.c" FORMNAME="" UNITNAME="Misc_Maths.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Misc\Misc_Menus.c" FORMNAME="" UNITNAME="Misc_Menus.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Misc\Misc_Requests.c" FORMNAME="" UNITNAME="Misc_Requests.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Properties\Editor\Properties_Editor_Config.c" FORMNAME="" UNITNAME="Properties_Editor_Config.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Properties\Editor\Properties_Editor_Registry.c" FORMNAME="" UNITNAME="Properties_Editor_Registry.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Properties\GlobalVariables\Properties_Global_Creatures.c" FORMNAME="" UNITNAME="Properties_Global_Creatures.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Properties\GlobalVariables\Properties_Global_Default.c" FORMNAME="" UNITNAME="Properties_Global_Default.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Properties\GlobalVariables\Properties_Global_Elements.c" FORMNAME="" UNITNAME="Properties_Global_Elements.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Properties\GlobalVariables\Properties_Global_Functions.c" FORMNAME="" UNITNAME="Properties_Global_Functions.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Properties\Map\Properties_Map_Alliances.c" FORMNAME="" UNITNAME="Properties_Map_Alliances.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Properties\Map\Properties_Map_Computer.c" FORMNAME="" UNITNAME="Properties_Map_Computer.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Properties\Map\Properties_Map_Creatures.c" FORMNAME="" UNITNAME="Properties_Map_Creatures.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Properties\Map\Properties_Map_Global.c" FORMNAME="" UNITNAME="Properties_Map_Global.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Properties\Map\Properties_Map_Options.c" FORMNAME="" UNITNAME="Properties_Map_Options.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Properties\Map\Properties_Map_Players.c" FORMNAME="" UNITNAME="Properties_Map_Players.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Properties\Map\Properties_Map_Texts.c" FORMNAME="" UNITNAME="Properties_Map_Texts.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Properties\Map\Properties_Map_Variables.c" FORMNAME="" UNITNAME="Properties_Map_Variables.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Properties\Map\Properties_Map_Voices.c" FORMNAME="" UNITNAME="Properties_Map_Voices.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Thumbnail\Thumbnail_Functions.c" FORMNAME="" UNITNAME="Thumbnail_Functions" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Libraries\Libraries_Calls.c" FORMNAME="" UNITNAME="Libraries_Calls.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Help\Help_Help.c" FORMNAME="" UNITNAME="Help_Help" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Datas_ASCII.c" FORMNAME="" UNITNAME="Datas_ASCII.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Datas_CameraPaths.c" FORMNAME="" UNITNAME="Datas_CameraPaths.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Datas_Effects.c" FORMNAME="" UNITNAME="Datas_Effects.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Datas_Game.c" FORMNAME="" UNITNAME="Datas_Game.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Datas_GlobalDefault.c" FORMNAME="" UNITNAME="Datas_GlobalDefault.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Datas_GlobalVariables.c" FORMNAME="" UNITNAME="Datas_GlobalVariables.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Datas_LastError.c" FORMNAME="" UNITNAME="Datas_LastError.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Datas_Manager.c" FORMNAME="" UNITNAME="Datas_Manager.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Datas_Map.c" FORMNAME="" UNITNAME="Datas_Map.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Datas_Menus.c" FORMNAME="" UNITNAME="Datas_Menus.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Datas_Modes.c" FORMNAME="" UNITNAME="Datas_Modes.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Datas_Things.c" FORMNAME="" UNITNAME="Datas_Things.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Datas_Thumbnails.c" FORMNAME="" UNITNAME="Datas_Thumbnails.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Datas_Triggers.c" FORMNAME="" UNITNAME="Datas_Triggers.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_ASCII.c" FORMNAME="" UNITNAME="Texts_ASCII.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Bands.c" FORMNAME="" UNITNAME="Texts_Bands" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_CameraPaths.c" FORMNAME="" UNITNAME="Texts_CameraPaths.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Compiler.c" FORMNAME="" UNITNAME="Texts_Compiler.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Config.c" FORMNAME="" UNITNAME="Texts_Config.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Debug.c" FORMNAME="" UNITNAME="Texts_Debug.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Disk.c" FORMNAME="" UNITNAME="Texts_Disk.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Effects.c" FORMNAME="" UNITNAME="Texts_Effects.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Files.c" FORMNAME="" UNITNAME="Texts_Files.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Global.c" FORMNAME="" UNITNAME="Texts_Global.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_GlobalVariables.c" FORMNAME="" UNITNAME="Texts_GlobalVariables.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Info.c" FORMNAME="" UNITNAME="Texts_Info" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_LastError.c" FORMNAME="" UNITNAME="Texts_LastError.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Libraries.c" FORMNAME="" UNITNAME="Texts_Libraries.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Manager.c" FORMNAME="" UNITNAME="Texts_Manager.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Map.c" FORMNAME="" UNITNAME="Texts_Map.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Menus.c" FORMNAME="" UNITNAME="Texts_Menus.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Report.c" FORMNAME="" UNITNAME="Texts_Report.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Requests.c" FORMNAME="" UNITNAME="Texts_Requests.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Stats.c" FORMNAME="" UNITNAME="Texts_Stats.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Things.c" FORMNAME="" UNITNAME="Texts_Things.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Thumbnails.c" FORMNAME="" UNITNAME="Texts_Thumbnails.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Triggers.c" FORMNAME="" UNITNAME="Texts_Triggers.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sources\Datas\Texts_Undo.c" FORMNAME="" UNITNAME="Texts_Undo.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Resources\Editor.rc" FORMNAME="" UNITNAME="Editor.rc" CONTAINERID="RCCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Editor.bpf" FORMNAME="" UNITNAME="Editor" CONTAINERID="BPF" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1036
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=6
+Item0=Sources\Texts;Sources\Datas;..\..\BCB6\Projects;Sources\Windows;Sources\Triggers;Sources\Thumbnail;Sources\Things;Sources\Properties\Map;Sources\Properties\GlobalVariables;Sources\Properties\Editor;Sources\Misc;Sources\Map;Sources\Main;Sources\Libraries;Sources\Help;Sources\Files;Sources\Compiler;Resources;Sources;..;$(BCB)\include;$(BCB)\include\vcl
+Item1=Sources\Windows;Sources\Triggers;Sources\Thumbnail;Sources\Things;Sources\Properties\Map;Sources\Properties\GlobalVariables;Sources\Properties\Editor;Sources\Misc;Sources\Map;Sources\Main;Sources\Libraries;Sources\Help;Sources\Files;Sources\Compiler;Resources;Sources;..;$(BCB)\include;$(BCB)\include\vcl
+Item2=Resources;Sources;..;$(BCB)\include;$(BCB)\include\vcl
+Item3=Sources;..;$(BCB)\include;$(BCB)\include\vcl
+Item4=..\;$(BCB)\include;$(BCB)\include\vcl
+Item5=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=6
+Item0=Sources\Texts;Sources\Datas;..\..\BCB6\Projects;Sources\Windows;Sources\Triggers;Sources\Thumbnail;Sources\Things;Sources\Properties\Map;Sources\Properties\GlobalVariables;Sources\Properties\Editor;Sources\Misc;Sources\Map;Sources\Main;Sources\Libraries;Sources\Help;Sources\Files;Sources\Compiler;Resources;Sources;..;$(BCB)\lib\obj;$(BCB)\lib
+Item1=Sources\Windows;Sources\Triggers;Sources\Thumbnail;Sources\Things;Sources\Properties\Map;Sources\Properties\GlobalVariables;Sources\Properties\Editor;Sources\Misc;Sources\Map;Sources\Main;Sources\Libraries;Sources\Help;Sources\Files;Sources\Compiler;Resources;Sources;..;$(BCB)\lib\obj;$(BCB)\lib
+Item2=Resources;Sources;..;$(BCB)\lib\obj;$(BCB)\lib
+Item3=Sources;..;$(BCB)\lib\obj;$(BCB)\lib
+Item4=..\;$(BCB)\lib\obj;$(BCB)\lib
+Item5=$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=5
+Item0=~Temp
+Item1=..\Editor\~Temp
+Item2=H:\Depack4\Editor\~Temp
+Item3=..
+Item4=..\
+
+[HistoryLists\hlFinalOutputDir]
+Count=2
+Item0=Test\
+Item1=Test
+
+[HistoryLists\hIBPIOutputDir]
+Count=2
+Item0=Test
+Item1=Test\
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>

@@ -1,0 +1,79 @@
+
+/*** Identificateurs ****************************************************/
+
+#define DISK_EDITORLOAD		0
+#define DISK_EDITORSAVE		1
+#define DISK_GAMELOAD		2
+#define DISK_TEXTLOAD		3
+#define DISK_TEXTSAVE		4
+
+//--- Editeur ---
+
+#define DISK_LEPRMAP		0
+#define DISK_LEPRSTATS		1
+#define DISK_LEPRMAPINFO	2
+#define DISK_LEPRPLAYERSINFO	3
+#define DISK_LEPRTHINGS		4
+#define DISK_LEPRRECTEX		5
+#define DISK_LEPRBANDS		6
+#define DISK_LEPRTRIGGERS	7
+#define DISK_LEPRVARIABLES	8
+#define DISK_LEPRDONE		9
+
+#define DISK_LEPRMAX		9
+
+#define DISK_SEPRSTATS		0
+#define DISK_SEPRMAPINFO	1
+#define DISK_SEPRPLAYERSINFO	2
+#define DISK_SEPRMAP		3
+#define DISK_SEPRTHINGS		4
+#define DISK_SEPRRECTEX		5
+#define DISK_SEPRBANDS		6
+#define DISK_SEPRTRIGGERS	7
+#define DISK_SEPRVARIABLES	8
+#define DISK_SEPRDONE		9
+
+#define DISK_SEPRMAX		9
+
+//--- Jeu ---
+
+#define DISK_LGPRMAP		0
+#define DISK_LGPRMAIN		1
+#define DISK_LGPRPLAYERS	2
+#define DISK_LGPRTHINGS		3
+#define DISK_LGPRVARIABLES	4
+#define DISK_LGPRTRIGGERS	5
+#define DISK_LGPRDONE		6
+
+#define DISK_LGPRMAX		6
+
+//--- Text ---
+
+#define DISK_STPRHEADER		0
+#define DISK_STPRMAP		1
+#define DISK_STPRTHINGS		2
+#define DISK_STPRMAPINFO	3
+#define DISK_STPRBANDS		4
+#define DISK_STPRAREAS		5
+#define DISK_STPRGATES		6
+#define DISK_STPRTRIGGERS	7
+#define DISK_STPRVARIABLES	8
+#define DISK_STPRDONE		9
+
+#define DISK_STPRMAX		9
+
+#define DISK_LTPRMAP		0
+#define DISK_LTPRTHINGS		1
+#define DISK_LTPRCREATURES	2
+#define DISK_LTPRDOORS		3
+#define DISK_LTPRTRAPS		4
+#define DISK_LTPRINFO		5
+#define DISK_LTPRBANDS		6
+#define DISK_LTPRAREAS		7
+#define DISK_LTPRGATES		8
+#define DISK_LTPRTRIGGERS	9
+#define DISK_LTPRVARIABLES	10
+#define DISK_LTPRDONE		11
+
+#define DISK_LTPRMAX		11
+

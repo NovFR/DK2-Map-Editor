@@ -1,0 +1,43 @@
+
+//--- Resource defines ---
+
+#define FRENCH			1
+#define GRADIENT		0
+
+//--- Version defines ---
+
+#define DATE			22
+#define MONTH			1
+#define YEAR			2003
+
+#define DKZMINVERSION		1			// AREAFILE
+#define DKZVERSION		1
+#define DKMMINVERSION		1			// FULLMAPFILE
+#define DKMVERSION		1
+
+#define DKSTSMINVERSION		1			// STATISTICS
+#define DKSTSVERSION		1
+#define DKMAPMINVERSION		1			// MAP
+#define DKMAPVERSION		1
+#define DKTGSMINVERSION		1			// THINGS
+#define DKTGSVERSION		6
+#define DKINFMINVERSION		1			// MAPINFO
+#define DKINFVERSION		7
+#define DKPLYMINVERSION		1			// PLAYERS
+#define DKPLYVERSION		3
+#define DKRECMINVERSION		1			// AREAS & GATES
+#define DKRECVERSION		1
+#define DKMTHMINVERSION		1			// HEROSBANDS
+#define DKMTHVERSION		5
+#define DKTRGMINVERSION		1			// TRIGGERS
+#define DKTRGVERSION		3
+#define DKGBLMINVERSION		1			// GLOBAL VARIABLES
+#define DKGBLVERSION		1
+
+#define RELEASEVERSION		2
+#define RELEASEREVISION		0
+#define VERSION			38
+#define REVISION		1
+
+#define FULLVERSIONSTRING	"2.0.38.01b2\0"
+#define RELEASESTRING		"2.0"
